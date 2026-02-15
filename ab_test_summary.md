@@ -1,0 +1,245 @@
+# YouTube A/B Test Results Summary
+
+## Overview
+
+This document summarizes all A/B tests conducted for Ray Amjad's Claude Code YouTube channel, including title tests and thumbnail text tests.
+
+---
+
+## Video 1: Opus 4.5 Prompting Tips
+
+**Final Title Selected:** "Anthropic Reveals How to Prompt Claude Code 10x Better" (26k views)
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Anthropic Reveals How to Prompt Claude Code 10x Better** | **42.2%** | ✅ WINNER |
+| The Secrets to 10x Better Opus 4.5 Outputs (Anthropic's Own Tips) | 30.1% | |
+| How to Prompt Claude Code 10x Better (Beginner to Advanced) | 27.7% | |
+
+**Key Learnings:**
+- "Anthropic Reveals" authority framing outperformed "Secrets"
+- Parenthetical additions hurt performance
+- Direct framing beats curiosity framing
+
+---
+
+## Video 2: Claude Code Weekly Features Update
+
+**Final Title Selected:** "Anthropic Just Added These Features to Claude Code" (18k views, 2 months ago)
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Anthropic Just Added These Features to Claude Code** | **40.8%** | ✅ WINNER |
+| What's New in Claude Code This Week (You're Missing Out) | 30.3% | |
+| New Claude Code Features You Missed This Week | 28.8% | |
+
+**Key Learnings:**
+- "Anthropic Just Added" formula established as winner
+- FOMO framing ("You Missed") underperforms
+- Clean titles beat guilt-trip framing
+
+---
+
+## Video 3: Claude Code Browser Control Update
+
+**Final Title Selected:** "Anthropic Just Connected Claude Code to Your Browser" (18k views)
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Anthropic Just Connected Claude Code to Your Browser** | **35.7%** | ✅ WINNER |
+| Claude Code Now Controls Chrome (+ 8 More Updates) | 34.7% | |
+| Claude Code Weekly: Browser Control, New Plugins, and More | 29.7% | |
+
+**Key Learnings:**
+- "Anthropic" framing wins but only by 1% — not dominant
+- Parenthetical "(+ 8 More Updates)" didn't hurt much when adding concrete value
+- Newsletter/series framing ("Weekly:") underperforms
+
+---
+
+## Video 4: 2026 AI Coding Workflow
+
+**Final Title Selected:** "My Claude Code Workflow for 2026" (22k views)
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **My Claude Code Workflow for 2026** | **36.1%** | ✅ WINNER |
+| My AI Coding Workflow Going Into 2026 | 35.1% | |
+| My AI Coding Stack for 2026 | 28.9% | |
+
+**Key Learnings:**
+- "Claude Code" (specific) beats "AI Coding" (generic)
+- "Workflow" beats "Stack" — process > list of tools
+- Personal "My" framing works for opinion/workflow content
+
+### Thumbnail Text A/B Test
+
+| Thumbnail Text | Watch-time Share | Result |
+|----------------|------------------|--------|
+| **How I Code Now** | **51.5%** | ✅ WINNER |
+| My 2026 Workflow | 27.1% | |
+| A Lot Has Changed | 21.5% | |
+
+**Key Learnings:**
+- "How I... Now" formula massively outperforms (more than double)
+- Present tense "Now" beats year labels "2026"
+- Vague statements underperform
+- Shorter + more direct wins
+
+---
+
+## Video 5: Claude Code Subagents Update
+
+**Final Title Selected:** "Claude Code's Biggest Update in Months" (24k views)
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Claude Code's Biggest Update in Months** | **37.1%** | ✅ WINNER |
+| Anthropic Just Added These Features to Claude Code | 36.9% | |
+| Claude Code Update: Improved Skills, New Subagents, Better Hooks | 26% | |
+
+**Key Learnings:**
+- Magnitude framing ("Biggest Update") narrowly beats authority framing
+- Listing multiple features kills performance
+- Single clear hook beats comprehensive descriptions
+
+### Thumbnail Text A/B Test
+
+| Thumbnail Text | Watch-time Share | Result |
+|----------------|------------------|--------|
+| **Game Changer Updates** | Unknown | (Original) |
+| Biggest Update Yet | Not tested | |
+| How Subagents Work Now | Not tested | |
+
+---
+
+## Video 6: Claude Code Planning Features
+
+**Final Title Selected:** "Claude Code's New Task System Explained" (25k views) — Note: This appears to be the selected title based on channel
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Anthropic Just Added These Features to Claude Code** | **39.2%** | ✅ WINNER |
+| Anthropic Just Made Claude Code Planning Way Better | 33% | |
+| How Claude Code Planning Works Now | 27.8% | |
+
+**Key Learnings:**
+- Generic "These Features" beats specific "Planning Way Better" for multi-feature videos
+- "How... Now" doesn't transfer from thumbnails to titles
+- Educational framing in titles underperforms news framing
+
+### Thumbnail Text A/B Test
+
+| Thumbnail Text | Watch-time Share | Result |
+|----------------|------------------|--------|
+| **Planning Changed** | **35.6%** | ✅ WINNER |
+| How Planning Works Now | 32.2% | |
+| Biggest Planning Update | 32.2% | |
+
+**Key Learnings:**
+- Shorter wins (2 words beat 3-4 words)
+- Simple past tense "Changed" works
+- "How [Feature]..." works less well than "How I..."
+- Magnitude framing doesn't help on thumbnails
+
+---
+
+## Video 7: Claude Code Task Management System
+
+**Final Title Selected:** "Claude Code's New Task System Explained" (25k views)
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Anthropic Just Added Task Management to Claude Code** | **35.3%** | ✅ WINNER |
+| Claude Code's New Task System Explained | 32.8% | |
+| Anthropic Just Changed How Claude Code Handles Tasks | 31.9% | |
+
+**Key Learnings:**
+- "Added" beats "Changed" — newness beats improvement
+- Specific feature naming works for single-feature videos
+- "Explained" educational framing still underperforms slightly
+
+---
+
+## Video 8: Agent Swarms / Multi-Agent Teams
+
+**Final Title Selected:** "Anthropic Just Dropped Agent Swarms" (17k views)
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Anthropic Just Dropped Agent Swarms** | **36.4%** | ✅ WINNER |
+| Anthropic Just Added Multi-Agent Teams to Claude Code | 34.1% | |
+| Claude Code's Agent Swarms Explained | 29.5% | |
+
+**Key Learnings:**
+- "Dropped" beats "Added" — more casual/hype language works
+- Shorter titles win (no "to Claude Code" needed)
+- "Swarms" (catchy) beats "Multi-Agent Teams" (technical)
+- "Explained" continues to underperform
+
+---
+
+## Master Summary: Winning Patterns
+
+### Title Formulas Ranked by Reliability
+
+| Formula | Avg Performance | Best For |
+|---------|-----------------|----------|
+| "Anthropic Just Added [specific feature] to Claude Code" | ~35-42% | Multi-feature updates |
+| "Anthropic Just [verb] [thing]" (Dropped, Revealed, Connected) | ~36-42% | Major announcements |
+| "[Tool]'s Biggest Update in [timeframe]" | ~37% | Major releases |
+| "My [specific tool] [Workflow/Process] for [year]" | ~36% | Personal/opinion content |
+| "[Tool]'s New [Feature] Explained" | ~30-33% | Educational (underperforms) |
+
+### Thumbnail Text Formulas Ranked
+
+| Formula | Performance | Notes |
+|---------|-------------|-------|
+| "How I [Verb] Now" | **51.5%** | Dominant winner |
+| "[Feature] Changed" | ~35% | Good, short |
+| "[Feature] + Magnitude" | ~32% | Medium |
+| "How [Feature] Works Now" | ~32% | Medium (less personal) |
+
+### Key Rules
+
+**Titles:**
+1. "Anthropic" authority framing is reliable but not unbeatable
+2. "Added" > "Changed" — newness beats improvement
+3. Shorter, cleaner titles generally win
+4. Listing multiple features kills performance
+5. "Explained" educational framing consistently underperforms
+6. Catchy terminology ("Swarms") beats technical ("Multi-Agent Teams")
+7. Specific tool names beat generic terms ("Claude Code" > "AI Coding")
+
+**Thumbnails:**
+1. "How I [X] Now" is the dominant formula
+2. Shorter is better (2-3 words ideal)
+3. Present tense "Now" beats year references
+4. Personal framing ("How I") beats feature framing ("How [Feature]")
+5. Simple past tense works ("Changed", "Dropped")
+
+---
+
+## Tests Still Worth Running
+
+1. **Bold/emotional claims** — "This Changes Everything" type titles
+2. **"You Can Now" framing** — Second-person capability framing
+3. **Question format titles** — "Did You Know Claude Code Can..."
+4. **Problem framing** — "Your CLAUDE.md File Is Probably Hurting Your Code"
+5. **"Why" framing** — "Why Most CLAUDE.md Files Make Claude Code Worse"
