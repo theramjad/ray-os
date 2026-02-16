@@ -9,7 +9,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 1: Opus 4.5 Prompting Tips
 
 **Video ID:** `pb0lVGDiigI`
-**Final Title Selected:** "Anthropic Reveals How to Prompt Claude Code 10x Better" (26k views)
+**Final Title Selected:** "Anthropic Reveals How to Prompt Claude Code 10x Better" (26,759 views)
 
 ### Title A/B Test
 
@@ -29,7 +29,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 2: Claude Code Weekly Features Update
 
 **Video ID:** `IiA4Ku5viyg`
-**Final Title Selected:** "Anthropic Just Added These Features to Claude Code" (18k views, 2 months ago)
+**Final Title Selected:** "Anthropic Just Added These Features to Claude Code" (18,715 views)
 
 ### Title A/B Test
 
@@ -49,7 +49,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 3: Claude Code Browser Control Update
 
 **Video ID:** `rXTvax9pyhs`
-**Final Title Selected:** "Anthropic Just Connected Claude Code to Your Browser" (18k views)
+**Final Title Selected:** "Anthropic Just Connected Claude Code to Your Browser" (18,913 views)
 
 ### Title A/B Test
 
@@ -69,7 +69,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 4: 2026 AI Coding Workflow
 
 **Video ID:** `sy65ARFI9Bg`
-**Final Title Selected:** "My Claude Code Workflow for 2026" (22k views)
+**Final Title Selected:** "My Claude Code Workflow for 2026" (22,504 views)
 
 ### Title A/B Test
 
@@ -103,7 +103,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 5: Claude Code Subagents Update
 
 **Video ID:** `NmKdYlODC24`
-**Final Title Selected:** "Claude Code's Biggest Update in Months" (24k views)
+**Final Title Selected:** "Claude Code's Biggest Update in Months" (24,717 views)
 
 ### Title A/B Test
 
@@ -131,7 +131,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 6: Claude Code Planning Features
 
 **Video ID:** `aF4QAHbNDrA`
-**Final Title Selected:** "Claude Code's New Task System Explained" (25k views) — Note: This appears to be the selected title based on channel
+**Final Title Selected:** "Anthropic Just Added These Features to Claude Code" (19,604 views)
 
 ### Title A/B Test
 
@@ -165,7 +165,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 7: Claude Code Task Management System
 
 **Video ID:** `6omInQipcag`
-**Final Title Selected:** "Claude Code's New Task System Explained" (25k views)
+**Final Title Selected:** "Claude Code's New Task System Explained" (25,392 views)
 
 ### Title A/B Test
 
@@ -185,7 +185,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 8: Agent Swarms / Multi-Agent Teams
 
 **Video ID:** `DWiYdXrxSwg`
-**Final Title Selected:** "Anthropic Just Dropped Agent Swarms" (17k views)
+**Final Title Selected:** "Anthropic Just Dropped Agent Swarms" (17,596 views)
 
 ### Title A/B Test
 
