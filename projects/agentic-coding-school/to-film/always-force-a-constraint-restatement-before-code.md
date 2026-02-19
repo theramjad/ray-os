@@ -1,3 +1,7 @@
+---
+duration: "1-4 min"
+---
+
 # Always force a constraint restatement before code
 
 **Implication:** Many failures come from the model silently dropping constraints.

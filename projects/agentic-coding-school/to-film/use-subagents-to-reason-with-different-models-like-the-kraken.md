@@ -1,3 +1,7 @@
+---
+duration: "5-9 min"
+---
+
 # Use subagents to reason with different models like the Kraken
 
 [Amp Code: Next Generation AI Coding – Beyang Liu](https://www.youtube.com/watch?v=gvIAkmZUEZY&list=WL&index=107)

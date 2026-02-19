@@ -1,3 +1,7 @@
+---
+duration: "5-9 min"
+---
+
 # Skills vs Subagents
 
 How they differ now

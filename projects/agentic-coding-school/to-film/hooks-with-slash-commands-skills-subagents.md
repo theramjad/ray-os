@@ -1,3 +1,7 @@
+---
+duration: "1-4 min"
+---
+
 # Hooks with Slash Commands, Skills, Subagents
 
 - Added hooks support to agent frontmatter, allowing agents to define PreToolUse, PostToolUse, and Stop hooks scoped to the agent's lifecycle

@@ -1,3 +1,7 @@
+---
+duration: "1-4 min"
+---
+
 # Finding Skills for Things You Want
 
 Ask the AI to go out and find skills for you — you won't always discover them on X.

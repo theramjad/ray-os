@@ -1,3 +1,7 @@
+---
+duration: "1-4 min"
+---
+
 # Refactoring to Save on Context
 
 [Whiteboarding made easy](https://app.excalidraw.com/s/85b98HOP6NF/AlunVcjhjrB)

@@ -1,3 +1,7 @@
+---
+duration: "1-4 min"
+---
+
 # Pass agents
 
 ## Use two-pass agents for reliability

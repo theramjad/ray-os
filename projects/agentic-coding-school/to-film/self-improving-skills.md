@@ -1,3 +1,7 @@
+---
+duration: "5-9 min"
+---
+
 # Self Improving Skills
 
 With either another skill or a stop hook: [The SECRET to Claude Code Skills Nobody's Talking About](https://www.youtube.com/watch?v=3EHnp-SH4O8)

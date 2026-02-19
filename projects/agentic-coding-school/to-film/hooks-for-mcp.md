@@ -1,3 +1,7 @@
+---
+duration: "1-4 min"
+---
+
 # Hooks for MCP
 
 Prevent Claude Code running dangerous Postgres commands.

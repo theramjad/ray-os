@@ -1,3 +1,7 @@
+---
+duration: "5-9 min"
+---
+
 # Model Differences
 
 ### Aparajita
