@@ -1,5 +1,8 @@
 ---
 duration: "5-9 min"
+batch: 6
+order: 4
+batch_name: "Setup & Platforms"
 ---
 
 # Claude Code in Xcode

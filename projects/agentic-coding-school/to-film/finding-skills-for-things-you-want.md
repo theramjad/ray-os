@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 4
+order: 1
+batch_name: "Skills"
 ---
 
 # Finding Skills for Things You Want

@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 6
+order: 2
+batch_name: "Setup & Platforms"
 ---
 
 # Ghostty for many parallel sessions

@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 2
+order: 2
+batch_name: "Bonus Techniques"
 ---
 
 # Pass agents

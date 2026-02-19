@@ -1,5 +1,8 @@
 ---
 duration: "5-9 min"
+batch: 4
+order: 3
+batch_name: "Skills"
 ---
 
 # React Best Practices Skill

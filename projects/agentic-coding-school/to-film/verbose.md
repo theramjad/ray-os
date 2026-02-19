@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 1
+order: 4
+batch_name: "Quick Wins"
 ---
 
 # --verbose

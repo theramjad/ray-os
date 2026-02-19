@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 2
+order: 3
+batch_name: "Bonus Techniques"
 ---
 
 # Always force a constraint restatement before code

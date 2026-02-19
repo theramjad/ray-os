@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 3
+order: 4
+batch_name: "Hooks"
 ---
 
 # Hooks for MCP

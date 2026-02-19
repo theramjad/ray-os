@@ -1,5 +1,8 @@
 ---
 duration: "5-9 min"
+batch: 5
+order: 2
+batch_name: "Subagents & Models"
 ---
 
 # Model Differences

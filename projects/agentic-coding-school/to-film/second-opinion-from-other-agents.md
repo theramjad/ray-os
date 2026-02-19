@@ -1,5 +1,8 @@
 ---
 duration: "5-9 min"
+batch: 5
+order: 3
+batch_name: "Subagents & Models"
 ---
 
 # Second Opinion From Other Agents

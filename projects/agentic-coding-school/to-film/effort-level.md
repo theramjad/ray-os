@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 1
+order: 6
+batch_name: "Quick Wins"
 ---
 
 # Effort Level

@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 2
+order: 1
+batch_name: "Bonus Techniques"
 ---
 
 # Just Run It Again

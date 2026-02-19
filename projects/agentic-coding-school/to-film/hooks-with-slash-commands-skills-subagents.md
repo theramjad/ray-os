@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 3
+order: 5
+batch_name: "Hooks"
 ---
 
 # Hooks with Slash Commands, Skills, Subagents

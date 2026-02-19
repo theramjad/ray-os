@@ -1,5 +1,8 @@
 ---
 duration: "5-9 min"
+batch: 5
+order: 1
+batch_name: "Subagents & Models"
 ---
 
 # Use subagents to reason with different models like the Kraken

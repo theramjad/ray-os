@@ -1,6 +1,9 @@
 ---
 duration: "1-4 min"
 notes: "Using hooks to verify changes before they're committed to GitHub"
+batch: 3
+order: 3
+batch_name: "Hooks"
 ---
 
 # Git Hooks in Claude

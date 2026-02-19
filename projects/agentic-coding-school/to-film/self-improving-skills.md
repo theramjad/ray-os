@@ -1,5 +1,8 @@
 ---
 duration: "5-9 min"
+batch: 4
+order: 2
+batch_name: "Skills"
 ---
 
 # Self Improving Skills

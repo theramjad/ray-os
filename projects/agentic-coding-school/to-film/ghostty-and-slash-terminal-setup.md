@@ -1,5 +1,8 @@
 ---
 duration: "1-4 min"
+batch: 6
+order: 1
+batch_name: "Setup & Platforms"
 ---
 
 # Ghostty and slash terminal-setup
