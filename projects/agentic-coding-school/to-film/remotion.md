@@ -5,6 +5,6 @@ order: 1
 batch_name: "Applications"
 ---
 
-# Plus Remotion
+# Remotion
 
 As a separate application class.
