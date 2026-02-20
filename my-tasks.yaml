@@ -23,6 +23,20 @@ tasks:
     due_date: "2026-02-20"
     created: "2026-02-19"
 
+  - id: "task-003"
+    title: "Add housing receipts"
+    status: "pending"
+    priority: 2
+    due_date: "2026-02-20"
+    created: "2026-02-20"
+
+  - id: "task-004"
+    title: "Add train ticket slip"
+    status: "pending"
+    priority: 2
+    due_date: "2026-02-20"
+    created: "2026-02-20"
+
 # Example task format:
 #
 # tasks:
