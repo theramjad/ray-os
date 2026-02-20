@@ -23,6 +23,7 @@ Adding MCP servers is a great way to close the loop — give Claude Code the abi
 - A cost/billing MCP so Claude can monitor server spend and flag or adjust resources automatically
 - A logging/observability MCP so it can detect errors in production and self-diagnose
 - A database MCP so it can check outcomes and update records based on results
+- A database MCP like [PlanetScale MCP](https://planetscale.com/docs/connect/mcp) to optimise queries — Claude can analyse slow queries and suggest or apply index/rewrite improvements
 
 The idea: don't just have Claude *produce* something — give it the tools to *see what happened* and respond.
 
