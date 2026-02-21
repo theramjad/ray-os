@@ -13,30 +13,39 @@ tasks:
     description: "Film 6 videos: Subagent Teams, Task Management, ANTHROPIC_DEFAULT_HAIKU_MODEL for Subagents, --verbose, --init/--init-only/--maintenance, Effort Level"
     status: "pending"
     priority: 1
-    due_date: "2026-02-20"
+    due_date: "2026-02-21"
     created: "2026-02-19"
 
   - id: "task-002"
-    title: "Update landing video with B-roll from class"
+    title: "Record Loom recordings for HyperWhisper help"
     status: "pending"
-    priority: 1
-    due_date: "2026-02-20"
-    created: "2026-02-19"
+    priority: 2
+    due_date: "2026-02-21"
+    created: "2026-02-20"
 
   - id: "task-003"
-    title: "Add housing receipts"
+    title: "Update team page with onboarding form"
+    description: "Add an onboarding form to the team page. Make it completely free. Include questions in the onboarding form."
     status: "pending"
     priority: 2
-    due_date: "2026-02-20"
-    created: "2026-02-20"
+    due_date: "2026-02-21"
+    created: "2026-02-21"
+
+  - id: "task-003b"
+    title: "Update coaching session to 45 minutes"
+    description: "Change coaching session duration to 45 minutes. Add a check in the onboarding form for whether they signed up via coaching session."
+    status: "pending"
+    priority: 2
+    due_date: "2026-02-21"
+    created: "2026-02-21"
 
   - id: "task-004"
-    title: "Add train ticket slip"
+    title: "Update video descriptions with team sign-up link"
+    description: "Add the team sign-up link to the description of each video."
     status: "pending"
     priority: 2
-    due_date: "2026-02-20"
-    created: "2026-02-20"
-
+    due_date: "2026-02-21"
+    created: "2026-02-21"
 # Example task format:
 #
 # tasks:
