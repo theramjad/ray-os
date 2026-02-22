@@ -7,7 +7,10 @@
       "mcp__todoist__find-tasks-by-date",
       "mcp__todoist__find-tasks",
       "mcp__todoist__add-tasks",
-      "mcp__supabase__execute_sql"
+      "mcp__supabase__execute_sql",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
