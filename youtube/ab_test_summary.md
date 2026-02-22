@@ -203,12 +203,36 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 
 ---
 
+## Video 9: Claude Code Worktrees & Desktop App Updates
+
+**Video ID:** `F_frSYyhzOE`
+**Final Title Selected:** "Anthropic Just Dropped 10 New Claude Code Features"
+
+### Title A/B Test
+
+| Title | Watch-time Share | Result |
+|-------|------------------|--------|
+| **Anthropic Just Dropped 10 New Claude Code Features** | **36.7%** | ✅ WINNER |
+| Anthropic Just Added These Features to Claude Code | 31.9% | |
+| Claude Code Just Got a Major Upgrade \| Here's What Changed | 31.4% | |
+
+**Key Learnings:**
+- "Dropped" + specific number ("10 New") is the strongest formula yet
+- The reliable "Anthropic Just Added These Features" formula underperformed here (31.9% vs its usual ~35-40%)
+- Pipe format ("| Here's What Changed") underperforms — feels clickbaity
+- Concrete numbers ("10 New") add specificity that boosts engagement
+- "Dropped" confirmed stronger than "Added" (also won Video 8)
+- "Claude Code Just Got..." framing is weakest — lacks the Anthropic authority
+
+---
+
 ## Master Summary: Winning Patterns
 
 ### Title Formulas Ranked by Reliability
 
 | Formula | Avg Performance | Best For |
 |---------|-----------------|----------|
+| "Anthropic Just Dropped [number] New [Tool] Features" | ~37% | Multi-feature updates (with count) |
 | "Anthropic Just Added [specific feature] to Claude Code" | ~35-42% | Multi-feature updates |
 | "Anthropic Just [verb] [thing]" (Dropped, Revealed, Connected) | ~36-42% | Major announcements |
 | "[Tool]'s Biggest Update in [timeframe]" | ~37% | Major releases |
@@ -228,12 +252,14 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 
 **Titles:**
 1. "Anthropic" authority framing is reliable but not unbeatable
-2. "Added" > "Changed" — newness beats improvement
-3. Shorter, cleaner titles generally win
-4. Listing multiple features kills performance
-5. "Explained" educational framing consistently underperforms
-6. Catchy terminology ("Swarms") beats technical ("Multi-Agent Teams")
-7. Specific tool names beat generic terms ("Claude Code" > "AI Coding")
+2. "Dropped" > "Added" > "Changed" — casual hype > newness > improvement
+3. Specific numbers ("10 New") boost engagement over vague "These Features"
+4. Shorter, cleaner titles generally win
+5. Listing multiple features in the title kills performance
+6. "Explained" educational framing consistently underperforms
+7. Catchy terminology ("Swarms") beats technical ("Multi-Agent Teams")
+8. Specific tool names beat generic terms ("Claude Code" > "AI Coding")
+9. Pipe format ("| Here's What Changed") underperforms — avoid
 
 **Thumbnails:**
 1. "How I [X] Now" is the dominant formula
