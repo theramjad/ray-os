@@ -33,11 +33,15 @@ Flag:
 
 ### Step 2: Task Review
 
-Read `~/.claude/my-tasks.yaml` and identify:
+**Ray's tasks:** Fetch from Todoist using `mcp__todoist__find-tasks-by-date` with `startDate: "today"`.
+Identify:
 - Tasks due TODAY (urgent)
 - Tasks OVERDUE (critical — should have been done)
 - Tasks due in the next 3 days (approaching)
 - Tasks that can be completed today given the calendar
+
+**Claude's tasks:** Read `/Users/ray/.claude/projects/-Users-ray-Desktop-ray-os/memory/todos.yaml`.
+Check for any overdue or due-today items that Claude should handle (e.g., checking post performance, follow-ups). Present these separately under a "CLAUDE'S TASKS" section.
 
 ### Step 3: Goals Check
 
