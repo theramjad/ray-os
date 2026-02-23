@@ -1,8 +1,8 @@
 ---
 duration: "1-4 min"
-batch: 3
-order: 1
-batch_name: "Hooks"
+batch: 1
+order: 5
+batch_name: "Quick Wins"
 ---
 
 # Background Hooks
