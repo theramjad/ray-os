@@ -5,18 +5,17 @@ description: Download YouTube video transcripts as plain text files. Use when th
 
 # YouTube Transcripts
 
-Download YouTube transcripts using `scripts/download_transcript.py`.
+Download YouTube transcripts using `scripts/download_transcript.py`. Transcripts are automatically organized into channel-name subfolders.
 
 ## Usage
 
 ```bash
-python3 <skill-dir>/scripts/download_transcript.py <video_id_or_url> [more...] [--out-dir DIR] [--by-channel]
+python3 <skill-dir>/scripts/download_transcript.py <video_id_or_url> [more...] [--out-dir DIR]
 ```
 
 - Accepts YouTube video IDs (`pb0lVGDiigI`) or full URLs (`https://youtube.com/watch?v=pb0lVGDiigI`)
-- Saves each transcript as `<video_id>.txt` in the output directory
+- Automatically organizes transcripts into channel-name subfolders via `yt-dlp`
 - Default output directory is the current working directory
-- `--by-channel` organizes transcripts into channel-name subfolders (requires `yt-dlp`)
 
 ## Examples
 
@@ -25,12 +24,19 @@ Single video:
 python3 scripts/download_transcript.py pb0lVGDiigI --out-dir transcripts/
 ```
 
-Multiple videos grouped by channel:
-```bash
-python3 scripts/download_transcript.py pb0lVGDiigI mZzhfPle9QU --out-dir transcripts/ --by-channel
+Output:
+```
+transcripts/
+└── ray-amjad/
+    └── pb0lVGDiigI.txt
 ```
 
-This creates:
+Multiple videos:
+```bash
+python3 scripts/download_transcript.py pb0lVGDiigI mZzhfPle9QU --out-dir transcripts/
+```
+
+Output:
 ```
 transcripts/
 ├── ray-amjad/
@@ -39,12 +45,8 @@ transcripts/
     └── mZzhfPle9QU.txt
 ```
 
-## Default behavior
-
-**Always use `--by-channel`** when downloading transcripts to keep them organized. The channel name is fetched via `yt-dlp` and slugified (e.g., "John Kim" -> `john-kim/`).
-
 ## Requirements
 
 - Python 3
 - `youtube-transcript-api` package (`pip install youtube-transcript-api`)
-- `yt-dlp` (for `--by-channel` feature)
+- `yt-dlp` (for channel name lookup)
