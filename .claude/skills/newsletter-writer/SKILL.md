@@ -48,6 +48,7 @@ Write newsletters that feel like a friend talking to you over coffee, not a blog
 - Starting with the lesson - always start with the personal context
 - Wrapping up too neatly - leave some roughness
 - Over-polished prose - this should read like it was written in one sitting (even if it wasn't)
+- NEVER call the Agentic Coding School a "course" or "class" - always refer to it as a "masterclass"
 
 ### Emotional Texture
 - The best issues have a specific emotional undertone: wonder, slight anxiety, gentle humor, quiet satisfaction
