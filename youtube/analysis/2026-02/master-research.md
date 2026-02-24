@@ -112,6 +112,43 @@ From analyzing 8 videos in the 20k-74k range:
 | **Bold declaration** | "Claude Code is all you need in 2026" | **1.8x** |
 | **Transformation** | "Claude code is changing my life" | 0.22x |
 
+### Broader Competitive Title Data (49 videos, Feb 2026)
+
+| Title | Channel | Views | Subs | Ratio |
+|-------|---------|-------|------|-------|
+| How I use Claude Code (Meta Staff Engineer Tips) | John Kim | 144k | 16.5K | **8.7x** |
+| Claude Code Workflows That Will 10x Your Productivity | John Kim | 21k | 16.5K | **1.3x** |
+| His Claude Code Workflow Is Insane | John Kim | 21k | 16.5K | **1.3x** |
+| How to Use Claude Code Agent Teams in 13 Mins (Opus 4.6) | Simon Scrapes | 26k | 40.4K | 0.64x |
+| 10 Claude Code tips I wish I knew from the start | No Code MBA | 16k | 38.2K | 0.42x |
+| You're using Claude Code Wrong - These 10 Tips Will Change Everything | Simon Scrapes | 15k | 40.4K | 0.37x |
+| 8 Insane Claude Code Use Cases (code anything!) | 9x | 22k | 59.2K | 0.37x |
+| Claude Code Worktrees in 7 Minutes | Developers Digest | 19k | 57.9K | 0.33x |
+| Claude Code's New Worktrees are Insane! | Ray Amjad | 12k | 35.6K | 0.34x |
+| Claude Code Skills - The Only Tutorial You Need | Leon van Zyl | 23k | 90K | 0.26x |
+| The AI Workflow Nobody's Talking About (Claude Code + Cursor) | Ankita Kulkarni | 4.5k | 22.9K | 0.20x |
+| 10 Crazy Ways To Get An Unfair Advantage With Claude Code | AI LABS | 22k | 122K | 0.18x |
+| Claude Code Agent Teams: The BEST FEATURE of Claude Code is... | AICodeKing | 22k | 124K | 0.18x |
+| Claude Code just Changed Content Creation Forever | Ben AI | 13k | 122K | 0.11x |
+| My top 6 tips & ways of using Claude Code efficiently | Academind | 88k | 929K | 0.09x |
+| Claude Code's NEW Plan Mode Just Changed EVERYTHING | Income Stream Surfers | 7k | 148K | **0.05x** |
+
+### What's Working (High Ratio Patterns)
+
+1. **Credential authority in parentheses** — 8.7x. The #1 outlier pattern in the entire dataset
+2. **Bold outcome claims with multipliers** — "10x Your Productivity" = 1.3x
+3. **Third-person reaction** — "His [Workflow] Is Insane" = 1.3x
+4. **Time-constrained** — "in 7 Minutes" / "in 13 Mins" = 0.33-0.64x. Signals quick value
+5. **"I wish I knew" nostalgia** — 0.42x. Regret hook works
+6. **Emotional adjectives + numbers** — "10 Crazy Ways" / "8 Insane Use Cases" = 0.18-0.37x
+
+### What's NOT Working
+
+- **"Just Changed EVERYTHING" + ALL CAPS** — 0.05x ratio (7k on 148K subs). Feels overdone
+- **"Nobody's Talking About" curiosity gap** — 0.20x. Too vague for this niche
+- **Trailing ellipsis cliffhanger** — "The BEST FEATURE is..." = 0.18x. Not pulling weight
+- **"Changed [X] Forever"** — 0.11x. Hyperbolic without proof
+
 ### High-Performing Title Formulas (Priority Ranked)
 
 **Tier 1 - Strong evidence (multiple outliers use these):**
@@ -124,6 +161,11 @@ From analyzing 8 videos in the 20k-74k range:
 5. Third-person reaction: "His Claude Code [Workflow/Setup] Is Insane"
 6. Bold outcome claim: "Claude Code Workflows That Will 10x Your [Outcome]"
 7. Bold declaration: "Claude Code is all you need in [year]"
+
+**Tier 3 - Worth testing:**
+8. Time-constrained: "Claude Code [Feature] in [N] Minutes"
+9. "I wish I knew": "10 Claude Code Features I Wish I Knew From Day One"
+10. "Unfair advantage": "How Claude Code Gives You an Unfair Coding Advantage"
 
 ---
 
