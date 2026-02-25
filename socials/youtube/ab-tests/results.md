@@ -275,7 +275,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 **Video ID:** `y3xzYwxQuHc`
 **Final Title Selected:** "Anthropic Just Dropped Remote Control for Claude Code"
 
-### Title A/B Test (title-only, same thumbnail across all)
+### Title A/B Test Round 1 (title-only, same thumbnail across all)
 
 | Title | Thumbnail Text | Watch-time Share | Result |
 |-------|---------------|------------------|--------|
@@ -283,13 +283,23 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 | Anthropic Just Turned Your Phone Into a Coding Terminal | My New Workflow | 31.7% | |
 | You Can Now Control Claude Code From Anywhere | My New Workflow | 27.9% | |
 
-**Key Learnings:**
-- "Dropped" formula dominant again (40.4% — highest since Video 1's 42.2%)
+### Title A/B Test Round 2 (title-only, same thumbnail across all)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped Remote Control for Claude Code** | My New Workflow | **40.9%** | ✅ WINNER |
+| Anthropic Just Made Claude Code Work From Anywhere | My New Workflow | 33.8% | |
+| I Control Claude Code From My Phone Now | My New Workflow | 25.4% | |
+
+**Key Learnings (across both rounds):**
+- "Dropped" formula unbeatable — 40.4% and 40.9% across two rounds, highest since Video 1's 42.2%
 - "Anthropic Just [verb]" authority framing confirmed strongest across 10 videos
-- "You Can Now" second-person framing flopped (27.9%) — **tested and rejected**, remove from "worth testing" list
-- Bold/transformative framing ("Turned Your Phone Into a Coding Terminal") decent at 31.7% but can't beat the proven formula
-- Concrete feature name ("Remote Control") outperforms abstract benefit ("From Anywhere")
+- Personal "I [verb]... Now" framing flopped hard in titles (25.4%) — works in thumbnails, not titles
+- "Made" verb decent (33.8%) but clearly behind "Dropped" — verb choice matters within the formula
+- "You Can Now" second-person framing flopped (27.9%) — tested and rejected
+- Abstract benefits ("From Anywhere") consistently lose to concrete feature names ("Remote Control")
 - "My New Workflow" thumbnail text worked well — variation of the "How I [X] Now" family
+- Dropping Anthropic authority is a death sentence for titles (25.4% without vs 40.9% with)
 
 ---
 
