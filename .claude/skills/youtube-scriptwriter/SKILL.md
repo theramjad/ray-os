@@ -85,12 +85,12 @@ who's never used Claude Code]
 
 ### Title/Thumbnail Angle
 [2-3 title options cross-referenced with patterns from
-youtube/ab-tests/results.md]
+socials/youtube/ab-tests/results.md]
 ```
 
 ### 6. Cross-Reference with Past Performance
 
 Before finalizing, check:
-- `youtube/ab-tests/results.md` — which title formulas have won before?
-- `youtube/transcripts/` — has Ray already covered this topic? If so, the new video MUST use a different format/angle than the previous one
-- `youtube/ab-tests/competitive/` — any competitor data on this topic?
+- `socials/youtube/ab-tests/results.md` — which title formulas have won before?
+- `socials/youtube/transcripts/` — has Ray already covered this topic? If so, the new video MUST use a different format/angle than the previous one
+- `socials/youtube/ab-tests/competitive/` — any competitor data on this topic?

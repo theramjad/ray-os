@@ -34,7 +34,7 @@ Calculate **Views/Sub ratio** = views / subscribers. This is the key metric — 
 
 Read `references/analysis-framework.md` for the full framework of title patterns to look for, scoring benchmarks, and output format.
 
-Cross-reference findings with existing A/B test results at `youtube/ab-tests/results.md` to identify:
+Cross-reference findings with existing A/B test results at `socials/youtube/ab-tests/results.md` to identify:
 - Which patterns align with proven winners
 - Which patterns are new and worth testing
 - Which patterns are underperforming despite popularity
@@ -48,4 +48,4 @@ Produce ranked title hypotheses (High / Medium / Lower priority) based on:
 
 ### 5. Save Output
 
-Write findings to `youtube/ab-tests/competitive/YYYY-MM.md` using the template in `references/analysis-framework.md`.
+Write findings to `socials/youtube/ab-tests/competitive/YYYY-MM.md` using the template in `references/analysis-framework.md`.

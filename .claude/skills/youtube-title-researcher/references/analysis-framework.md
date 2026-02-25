@@ -61,7 +61,7 @@ Sort by relevance (default) rather than view count — YouTube's relevance sort 
 
 ## Output Format
 
-Save findings to `youtube/ab-tests/competitive/YYYY-MM.md` using this structure:
+Save findings to `socials/youtube/ab-tests/competitive/YYYY-MM.md` using this structure:
 
 ```markdown
 # Competitive Title Research: [Month Year]
