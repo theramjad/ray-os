@@ -270,10 +270,32 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 
 ---
 
+## Video 10: Claude Code Remote Control Feature
+
+**Video ID:** `y3xzYwxQuHc`
+**Test Status:** Running (13 days remaining)
+
+### Title + Thumbnail A/B Test
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| Anthropic Just Dropped Remote Control for Claude Code | How I'll Start Coding | **35.5%** | Leading |
+| Is Anthropic's Own OpenClaw Finally Here? | Anthropic's OpenClaw? | 33.8% | |
+| Is Claude Code About to Replace OpenClaw? | Anthropic's OpenClaw? | 30.7% | |
+
+**Early Observations (test still running):**
+- "Dropped" formula leading again — consistent with Videos 8 & 9
+- Question-format titles underperform statement titles (both question variants trail)
+- "Is Anthropic's Own OpenClaw Finally Here?" (33.8%) beats "Is Claude Code About to Replace OpenClaw?" (30.7%) — Anthropic authority still helps even in question format
+- "How I'll Start Coding" thumbnail text works (future tense variation of "How I Code Now")
+- "Anthropic's OpenClaw?" thumbnail text underperforms — question on thumbnail may weaken click confidence
+
+---
+
 ## Tests Still Worth Running
 
 1. **Bold/emotional claims** — "This Changes Everything" type titles
 2. **"You Can Now" framing** — Second-person capability framing
-3. **Question format titles** — "Did You Know Claude Code Can..."
+3. ~~**Question format titles** — "Did You Know Claude Code Can..."~~ **TESTED (Video 10)** — Question format underperforms statement format by ~2-5%. Both question variants trailed "Dropped" statement.
 4. **Problem framing** — "Your CLAUDE.md File Is Probably Hurting Your Code"
 5. **"Why" framing** — "Why Most CLAUDE.md Files Make Claude Code Worse"
