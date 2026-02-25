@@ -273,29 +273,31 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 10: Claude Code Remote Control Feature
 
 **Video ID:** `y3xzYwxQuHc`
-**Test Status:** Running (13 days remaining)
+**Final Title Selected:** "Anthropic Just Dropped Remote Control for Claude Code"
 
-### Title + Thumbnail A/B Test
+### Title A/B Test (title-only, same thumbnail across all)
 
 | Title | Thumbnail Text | Watch-time Share | Result |
 |-------|---------------|------------------|--------|
-| Anthropic Just Dropped Remote Control for Claude Code | How I'll Start Coding | **35.5%** | Leading |
-| Is Anthropic's Own OpenClaw Finally Here? | Anthropic's OpenClaw? | 33.8% | |
-| Is Claude Code About to Replace OpenClaw? | Anthropic's OpenClaw? | 30.7% | |
+| **Anthropic Just Dropped Remote Control for Claude Code** | My New Workflow | **40.4%** | ✅ WINNER |
+| Anthropic Just Turned Your Phone Into a Coding Terminal | My New Workflow | 31.7% | |
+| You Can Now Control Claude Code From Anywhere | My New Workflow | 27.9% | |
 
-**Early Observations (test still running):**
-- "Dropped" formula leading again — consistent with Videos 8 & 9
-- Question-format titles underperform statement titles (both question variants trail)
-- "Is Anthropic's Own OpenClaw Finally Here?" (33.8%) beats "Is Claude Code About to Replace OpenClaw?" (30.7%) — Anthropic authority still helps even in question format
-- "How I'll Start Coding" thumbnail text works (future tense variation of "How I Code Now")
-- "Anthropic's OpenClaw?" thumbnail text underperforms — question on thumbnail may weaken click confidence
+**Key Learnings:**
+- "Dropped" formula dominant again (40.4% — highest since Video 1's 42.2%)
+- "Anthropic Just [verb]" authority framing confirmed strongest across 10 videos
+- "You Can Now" second-person framing flopped (27.9%) — **tested and rejected**, remove from "worth testing" list
+- Bold/transformative framing ("Turned Your Phone Into a Coding Terminal") decent at 31.7% but can't beat the proven formula
+- Concrete feature name ("Remote Control") outperforms abstract benefit ("From Anywhere")
+- "My New Workflow" thumbnail text worked well — variation of the "How I [X] Now" family
 
 ---
 
 ## Tests Still Worth Running
 
 1. **Bold/emotional claims** — "This Changes Everything" type titles
-2. **"You Can Now" framing** — Second-person capability framing
-3. ~~**Question format titles** — "Did You Know Claude Code Can..."~~ **TESTED (Video 10)** — Question format underperforms statement format by ~2-5%. Both question variants trailed "Dropped" statement.
+2. ~~**"You Can Now" framing**~~ **TESTED (Video 10)** — Flopped at 27.9%. Second-person capability framing doesn't work.
+3. ~~**Question format titles**~~ **TESTED (Video 10 earlier test)** — Question format underperforms statement format by ~2-5%.
 4. **Problem framing** — "Your CLAUDE.md File Is Probably Hurting Your Code"
 5. **"Why" framing** — "Why Most CLAUDE.md Files Make Claude Code Worse"
+6. **Transformative framing** — "Turned X Into Y" tested at 31.7% (Video 10) — decent, worth retesting in a stronger position
