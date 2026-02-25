@@ -11,7 +11,8 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "mcp__todoist__search"
+      "mcp__todoist__search",
+      "WebFetch(domain:www.linkedin.com)"
     ]
   }
 }

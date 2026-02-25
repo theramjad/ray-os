@@ -7,6 +7,8 @@ Usage:
 Transcripts are automatically saved into channel-name subfolders as <channel>/<video_id>.txt.
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import os
