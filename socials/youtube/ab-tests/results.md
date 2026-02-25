@@ -299,14 +299,22 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 | Anthropic Just Dropped Remote Control for Claude Code | My New Workflow | 31.1% | |
 | Anthropic Just Dropped Phone Control for Claude Code | My New Workflow | 30.8% | |
 
-**Key Learnings (across all 3 rounds):**
-- Social proof + curiosity ("the Feature Everyone Asked For") beats specific feature naming — major finding that overturns round 1-2 conclusions
-- "Remote Control" vs "Phone Control" essentially tied (31.1% vs 30.8%) — specific wording within the same concept doesn't matter
-- The previous 40%+ scores for "Remote Control" may have been inflated by weak competitors (questions, personal framing) rather than the feature name being strong
-- "Dropped" remains the best verb — all 3 variants used it, so the variable here was specificity vs curiosity
-- "Anthropic Just Dropped" + social proof/curiosity is the new strongest formula
-- Personal "I [verb]... Now" framing flopped hard in titles (25.4%) — works in thumbnails, not titles
-- Dropping Anthropic authority is a death sentence for titles (25.4% without vs 40.9% with)
+### Title A/B Test Round 4 (title-only, same thumbnail across all)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped the Feature Everyone Asked For** | My New Workflow | **35.7%** | Leading |
+| Anthropic Just Dropped Claude Code's Most Requested Feature | My New Workflow | 33.5% | |
+| Anthropic Just Dropped the Feature Nobody Expected | My New Workflow | 30.8% | |
+
+**Key Learnings (across all 4 rounds):**
+- Social proof curiosity ("Everyone Asked For") is the strongest formula — wins rounds 3 and 4
+- It's specifically **social proof** driving it, not just curiosity — "Nobody Expected" (surprise) lost at 30.8%
+- Hierarchy: social proof ("Everyone Asked For" 35.7%) > social proof + specificity ("Most Requested Feature" 33.5%) > surprise ("Nobody Expected" 30.8%)
+- Adding "Claude Code" back into the curiosity formula ("Most Requested Feature") helps slightly vs surprise but still loses to pure social proof
+- Early round 1-2 wins for "Remote Control" (40%+) were inflated by weak competitors, not because specificity was inherently better
+- "Dropped" remains the best verb across all tests
+- Personal framing without Anthropic authority is a death sentence (25.4%)
 - "My New Workflow" thumbnail text consistent across all rounds
 
 ---
