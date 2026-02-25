@@ -291,15 +291,23 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 | Anthropic Just Made Claude Code Work From Anywhere | My New Workflow | 33.8% | |
 | I Control Claude Code From My Phone Now | My New Workflow | 25.4% | |
 
-**Key Learnings (across both rounds):**
-- "Dropped" formula unbeatable — 40.4% and 40.9% across two rounds, highest since Video 1's 42.2%
-- "Anthropic Just [verb]" authority framing confirmed strongest across 10 videos
+### Title A/B Test Round 3 (title-only, same thumbnail across all)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped the Feature Everyone Asked For** | My New Workflow | **38.1%** | Leading |
+| Anthropic Just Dropped Remote Control for Claude Code | My New Workflow | 31.1% | |
+| Anthropic Just Dropped Phone Control for Claude Code | My New Workflow | 30.8% | |
+
+**Key Learnings (across all 3 rounds):**
+- Social proof + curiosity ("the Feature Everyone Asked For") beats specific feature naming — major finding that overturns round 1-2 conclusions
+- "Remote Control" vs "Phone Control" essentially tied (31.1% vs 30.8%) — specific wording within the same concept doesn't matter
+- The previous 40%+ scores for "Remote Control" may have been inflated by weak competitors (questions, personal framing) rather than the feature name being strong
+- "Dropped" remains the best verb — all 3 variants used it, so the variable here was specificity vs curiosity
+- "Anthropic Just Dropped" + social proof/curiosity is the new strongest formula
 - Personal "I [verb]... Now" framing flopped hard in titles (25.4%) — works in thumbnails, not titles
-- "Made" verb decent (33.8%) but clearly behind "Dropped" — verb choice matters within the formula
-- "You Can Now" second-person framing flopped (27.9%) — tested and rejected
-- Abstract benefits ("From Anywhere") consistently lose to concrete feature names ("Remote Control")
-- "My New Workflow" thumbnail text worked well — variation of the "How I [X] Now" family
 - Dropping Anthropic authority is a death sentence for titles (25.4% without vs 40.9% with)
+- "My New Workflow" thumbnail text consistent across all rounds
 
 ---
 
