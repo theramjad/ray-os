@@ -198,6 +198,32 @@ After generating the EDL, run a sanity check:
   Easier to trim excess in Premiere than to extend a clipped word.
 - Final result: 2.5min from 7min raw (35% kept).
 
+### Edit 3: 23min recording (49 → 101 segments after refine, user corrected to tighter edit)
+- **Content selection correct** — all topics the user kept were also in the automated edit.
+- **Redundant meta-commentary kept** — "shifting your mindset from HOW to WHAT" (lines 109-111)
+  was kept but user cut it. The entire video already demonstrates this through examples.
+  Rule: if a segment explicitly narrates the point the video is already making through examples,
+  it's redundant. Prefer showing (examples) over telling (meta-commentary).
+- **Same sentence kept twice** — two identical sentences 2s apart (lines 97 vs 98) both kept.
+  Rule: apply "last take wins" not just to adjacent lines but within a ~30s window.
+  Scan for same-idea restatements that aren't immediately consecutive.
+- **Short emotional beat over-cut** — "And honestly, I get really surprised" (line 59, 2s) was
+  cut as filler. User kept it as a transition. Rule: short (1-3s) emotional reactions or
+  transitions should be kept even if they seem minor. They humanize the content and bridge
+  sections. Only cut if stammered/repeated.
+- **Intermediate false-start takes kept** — between two attempts at the same example (lines
+  159-175 vs 182-212), the middle attempt was partially included. Rule: when the speaker
+  attempts the same example multiple times with significant gaps, identify ALL attempts and
+  pick only the final most complete one. Cut everything in between.
+- **Closing section under-compressed** — speaker fatigue in the final 20% produces the most
+  restarts. The automated edit kept 4+ restart attempts of "frees you up" / "bottleneck moved."
+  User kept only the 2 cleanest. Rule: apply extra scrutiny to the final 20% of a recording.
+  For conclusion sections, identify the single cleanest statement of each point.
+- **Opening: don't layer takes** — automated edit combined lines 17-18 AND 24-29 for the opener.
+  User picked only 24-29 as one clean take. Rule: for the video opening, pick ONE definitive
+  take. Never combine material from two different opening attempts.
+- Final result: user's edit was 8.2min from 23.4min raw (35% kept).
+
 ### Voice activity detection
 Use VAD (voice activity detection) to verify segment boundaries. Transcript timestamps alone
 can clip speech onset/offset. After determining segment boundaries from the transcript, use
