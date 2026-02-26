@@ -2,18 +2,24 @@
   "permissions": {
     "allow": [
       "Bash(python3:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(ls:*)",
+      "Bash(open:*)",
+      "Bash(psql:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git mv:*)",
       "mcp__todoist__fetch-object",
       "mcp__todoist__find-comments",
       "mcp__todoist__find-tasks-by-date",
       "mcp__todoist__find-tasks",
       "mcp__todoist__add-tasks",
-      "mcp__supabase__execute_sql",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push:*)",
       "mcp__todoist__search",
+      "mcp__supabase__execute_sql",
       "WebFetch(domain:www.linkedin.com)",
-      "Bash(git mv:*)"
+      "WebFetch(domain:arxiv.org)",
+      "Skill(excalidraw-gen)"
     ]
   }
 }
