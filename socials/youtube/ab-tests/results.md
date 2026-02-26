@@ -307,13 +307,22 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 | Anthropic Just Dropped Claude Code's Most Requested Feature | My New Workflow | 33.5% | |
 | Anthropic Just Dropped the Feature Nobody Expected | My New Workflow | 30.8% | |
 
-**Key Learnings (across all 4 rounds):**
-- Social proof curiosity ("Everyone Asked For") is the strongest formula — wins rounds 3 and 4
-- It's specifically **social proof** driving it, not just curiosity — "Nobody Expected" (surprise) lost at 30.8%
-- Hierarchy: social proof ("Everyone Asked For" 35.7%) > social proof + specificity ("Most Requested Feature" 33.5%) > surprise ("Nobody Expected" 30.8%)
-- Adding "Claude Code" back into the curiosity formula ("Most Requested Feature") helps slightly vs surprise but still loses to pure social proof
-- Early round 1-2 wins for "Remote Control" (40%+) were inflated by weak competitors, not because specificity was inherently better
-- "Dropped" remains the best verb across all tests
+### Title A/B Test Round 5: Greatest Hits Showdown (title-only, same thumbnail)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped the Feature Everyone Asked For** | My New Workflow | **42.3%** | ✅ WINNER |
+| Anthropic Reveals Remote Control for Claude Code | My New Workflow | 29.5% | |
+| Anthropic Just Added Remote Control to Claude Code | My New Workflow | 28.2% | |
+
+**Key Learnings (across all 5 rounds):**
+- "Dropped the Feature Everyone Asked For" is the definitive best title at **42.3%** — tied for all-time best
+- Social proof curiosity dominates: wins round 3, 4, and 5 convincingly
+- **Verb hierarchy settled:** "Dropped" (42.3%) >>> "Reveals" (29.5%) > "Added" (28.2%) when tested head-to-head
+- "Reveals" and "Added" — both previous video winners at 42.2% and 40.8% — crumbled against the social proof formula
+- Specificity ("Remote Control") is now confirmed weaker than curiosity ("the Feature Everyone Asked For")
+- It's specifically **social proof** driving it, not just curiosity — "Nobody Expected" lost at 30.8% in round 4
+- "Anthropic" authority framing remains essential — all top performers include it
 - Personal framing without Anthropic authority is a death sentence (25.4%)
 - "My New Workflow" thumbnail text consistent across all rounds
 
