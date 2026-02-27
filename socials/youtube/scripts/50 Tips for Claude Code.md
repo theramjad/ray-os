@@ -50,7 +50,7 @@ To celebrate the first year of Claude Code, I'll be sharing over 50 tips from ov
 18. **Modularise your files** — Claude Code has to read a file before it edits it to know which lines to edit. Current models end up leading to files with 1000s of lines and won't break it up for you — you need to regularly modularise things to prevent too much context being loaded in and your context window being killed too soon.
 ![[images/50-tips/tip-18-modularise-files/img_1.png]]
 ![[images/50-tips/tip-18-modularise-files/img_2.png]]
-
+![[images/50-tips/tip-18-modularise-files/excalidraw_1.png]]
 ## Prompting
 
 20. **Use the agent's own terminology in follow-up prompts** — if Claude calls it a "CDN download URL" vs "direct download URL," use those exact terms. It helps it find the right code faster and be more precise. If Claude mentions "disposable domain checking," reference that phrase back — it'll know exactly what part of the codebase you mean. If you find yourself pushing Claude hard to get it to do something, your terminology is probably wrong.
@@ -71,6 +71,9 @@ You should dictate, if you're interest in what exactly that should be then you c
 ![[images/50-tips/tip-26-spec-developer/excalidraw_3.png]]
 
 26b. **Spec developer gives you peace of mind when vibe coding** — I like to do things that give me peace of mind. The spec developer helps you understand the code better — I can explain exactly how a specific feature works because I understand it via the questions it asked me.
+
+![[images/50-tips/tip-26b-spec-developer-peace-of-mind/excalidraw_2.png]]
+
 27. **Have explore subagents check the codebase before spec developer asks questions** — tell it to "first explore the codebase with 4-5 explore subagents based on the plan before asking me questions." When the spec developer's questions are grounded in actual code (not just the plan), you get questions about real edge cases in your specific codebase rather than generic ones.
 ![[images/50-tips/tip-27-explore-before-spec/excalidraw_1.png]]
 28. **After implementation, spawn 5 explore subagents to verify the plan** — assign each to check a different aspect of the plan and ensure full coverage. Report back with anything missing from the codebase that wasn't implemented. If both Claude Code and Codex confirm the plan was fully implemented, you can be pretty confident it was done right.
@@ -80,13 +83,21 @@ You should dictate, if you're interest in what exactly that should be then you c
 ![[images/50-tips/tip-29-mermaid-diagrams/excalidraw_2.png]]
 You can either make this script yourself or find it in my Claude Code Masterclass.
 
-29b. **Use Mermaid diagrams to understand the implementation** — beyond verification, Mermaid diagrams help you actually understand how the implementation works. When Claude builds something complex, having it generate a diagram gives you a mental model of the architecture — so you're not just vibing, you actually know what was built.
+29b. **Use Mermaid diagrams to understand the implementation** — Before when coding manually, you practically built up a Mermaid diagrams in your mind help you actually understand how the implementation works. But now, when Claude builds something complex, having it generate a diagram gives you a mental model of the architecture — so you're not just vibing, you actually know what was built.
+
+![[images/50-tips/tip-29b-mermaid-understanding/excalidraw_3.png]]
+
+I have a free skill for this that I shared in my masterclass, link down below.
+(Join it, and see)
 
 30. **Plan in one session, execute in another** — spend a whole session exploring, testing, and refining a plan. Write it to a file. Start a fresh session at 10-15% context and tag the plan file. The implementation will be faster and more focused — I've seen it go from 58% context usage down to 21% in the new session, and the code quality is better because there's no poisonous early context from failed explorations or dead-end ideas.
 
 ![[images/50-tips/tip-30-plan-then-execute/excalidraw_2.png]]
 30b. **Save all your plans into a history** — I move so fast that sometimes I regret a change a few days later. Having the plan saved with the project makes it easy to point Claude at a past plan and reverse it — much easier than Claude searching through commit history. It also gives you a good reference for future sessions. See https://github.com/aparajita/claude-code
 ![[images/50-tips/tip-30b-save-plans/img_1.png]]
+
+![[images/50-tips/tip-30b-save-plans/excalidraw_2.png]]
+
 31. **Re-enter plan mode for the next stage of the plan** — after Claude finishes implementing one section, switch back into plan mode before tackling the next section. This forces it to re-read the plan, check what's been done, and think about what's next rather than just charging ahead. Especially important for long plans with multiple phases. When you have a follow-up feature idea after the last one has been implemented, re-enter plan mode then clear into a new context window — you get a fresh start with a focused plan instead of building on top of stale context.
 ![[images/50-tips/tip-31-re-enter-plan-mode/excalidraw_1.png]]
 ![[images/50-tips/tip-31-re-enter-plan-mode/img_2.png]]
