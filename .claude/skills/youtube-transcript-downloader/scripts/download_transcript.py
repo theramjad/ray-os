@@ -44,19 +44,41 @@ def slugify_channel(name: str) -> str:
     return slug
 
 
-def get_channel_name(video_id: str) -> str | None:
-    """Fetch channel name for a video using yt-dlp."""
+def get_video_metadata(video_id: str) -> dict:
+    """Fetch channel, title, and upload date for a video using yt-dlp."""
     try:
         result = subprocess.run(
-            ["yt-dlp", "--print", "%(channel)s", "--skip-download",
+            ["yt-dlp", "--print", "%(channel)s|||%(title)s|||%(upload_date)s", "--skip-download",
              f"https://www.youtube.com/watch?v={video_id}"],
             capture_output=True, text=True, timeout=30
         )
         if result.returncode == 0 and result.stdout.strip():
-            return result.stdout.strip()
+            parts = result.stdout.strip().split("|||")
+            if len(parts) == 3:
+                channel, title, upload_date = parts
+                # Format upload_date from YYYYMMDD to YYYY-MM-DD
+                if len(upload_date) == 8 and upload_date.isdigit():
+                    upload_date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
+                return {"channel": channel, "title": title, "date": upload_date}
     except (subprocess.TimeoutExpired, FileNotFoundError):
         pass
-    return None
+    return {}
+
+
+def build_frontmatter(video_id: str, metadata: dict) -> str:
+    """Build YAML frontmatter string from video metadata."""
+    safe_title = metadata.get("title", "").replace('"', '\\"')
+    lines = ["---"]
+    if safe_title:
+        lines.append(f'title: "{safe_title}"')
+    if metadata.get("date"):
+        lines.append(f'date: {metadata["date"]}')
+    lines.append(f"video_id: {video_id}")
+    if metadata.get("channel"):
+        lines.append(f'channel: {slugify_channel(metadata["channel"])}')
+    lines.append("---")
+    lines.append("")
+    return "\n".join(lines) + "\n"
 
 
 def download_transcript(video_id: str, out_dir: str) -> str:
@@ -66,7 +88,8 @@ def download_transcript(video_id: str, out_dir: str) -> str:
     text = "\n".join(entry.text for entry in transcript)
 
     target_dir = out_dir
-    channel = get_channel_name(video_id)
+    metadata = get_video_metadata(video_id)
+    channel = metadata.get("channel")
     if channel:
         slug = slugify_channel(channel)
         target_dir = os.path.join(out_dir, slug)
@@ -76,8 +99,9 @@ def download_transcript(video_id: str, out_dir: str) -> str:
 
     os.makedirs(target_dir, exist_ok=True)
     out_path = os.path.join(target_dir, f"{video_id}.txt")
+    frontmatter = build_frontmatter(video_id, metadata)
     with open(out_path, "w") as f:
-        f.write(text)
+        f.write(frontmatter + text)
     return out_path
 
 

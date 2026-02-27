@@ -28,7 +28,7 @@ Output:
 ```
 transcripts/
 └── ray-amjad/
-    └── pb0lVGDiigI.txt
+    └── pb0lVGDiigI.txt   # includes YAML frontmatter (title, date, video_id, channel)
 ```
 
 Multiple videos:
