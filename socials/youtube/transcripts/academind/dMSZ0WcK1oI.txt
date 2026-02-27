@@ -1,3 +1,10 @@
+---
+title: "A very subjective comparison of Claude Code, OpenCode, Cursor & GitHub Copilot"
+date: 2026-01-29
+video_id: dMSZ0WcK1oI
+channel: academind
+---
+
 There is a broad variety of tools you can
 use for agentic
 engineering,

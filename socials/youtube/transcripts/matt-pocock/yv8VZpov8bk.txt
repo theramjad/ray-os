@@ -1,3 +1,10 @@
+---
+title: "I'm using claude --worktree for everything now"
+date: 2026-02-21
+video_id: yv8VZpov8bk
+channel: matt-pocock
+---
+
 introducing built-in Git work tree
 support for claude code. Now agents can
 run in parallel without interfering with

@@ -1,3 +1,10 @@
+---
+title: "Anthropic Just Dropped the Feature Everyone Asked For"
+date: 2026-02-25
+video_id: y3xzYwxQuHc
+channel: ray-amjad
+---
+
 Okay, so a few hours ago, Anthropic 
 released a brand new feature,  
 which many people are calling Anthropic's own 

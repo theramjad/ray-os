@@ -1,3 +1,10 @@
+---
+title: "6 Months of Claude Code Lessons in 27 Minutes"
+date: 2025-09-03
+video_id: rfDvkSkelhg
+channel: ai-with-avthar
+---
+
 There's a new king of AI coding tools
 and its name is Claude code. But 6
 months ago, I was using Claude code all

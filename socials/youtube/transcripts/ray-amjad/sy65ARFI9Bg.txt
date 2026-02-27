@@ -1,3 +1,10 @@
+---
+title: "My Claude Code Workflow for 2026"
+date: 2026-01-02
+video_id: sy65ARFI9Bg
+channel: ray-amjad
+---
+
 Okay, so I'll be showing my AI agent
 coding workflow going into 2026. And
 hopefully you can learn a few things

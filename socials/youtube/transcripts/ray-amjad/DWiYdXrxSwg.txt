@@ -1,3 +1,10 @@
+---
+title: "Learn Claude Code Agent Teams in 12 Minutes"
+date: 2026-02-06
+video_id: DWiYdXrxSwg
+channel: ray-amjad
+---
+
 Okay, so we have a pretty big feature
 that was just added to cloud code that
 may change the way that you use the tool

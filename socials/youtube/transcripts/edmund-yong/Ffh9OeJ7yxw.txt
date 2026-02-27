@@ -1,3 +1,10 @@
+---
+title: "800+ hours of Learning Claude Code in 8 minutes (2026 tutorial / unknown tricks / newest model)"
+date: 2025-10-27
+video_id: Ffh9OeJ7yxw
+channel: edmund-yong
+---
+
 After spending over 800 hours in Claude
 Code, I've discovered ways to actually
 make this thing work for me, not against

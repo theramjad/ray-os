@@ -2,18 +2,6 @@
 
 Ray's centralised personal operating system — content, courses, research, projects, and social media in one place.
 
-## Structure
-
-```
-ray-os/
-├── courses/                 — Course content (Advanced Context Engineering, Techniques, VSL)
-├── research/                — Research notes and deep dives
-├── projects/                — Active projects (agentic-coding-school, codex-cli)
-├── socials/                 — YouTube & LinkedIn content, analysis, and performance data
-├── tasks/                   — Todos and task tracking
-├── .claude/skills/          — Claude Code skills (video editing, content writing, image gen, etc.)
-├── .obsidian/               — Obsidian vault config
-└── schedules.yaml           — Scheduled automations
 ```
 
 ## Obsidian Vault

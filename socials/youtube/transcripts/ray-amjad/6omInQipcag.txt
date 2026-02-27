@@ -1,3 +1,10 @@
+---
+title: "Claude Code's New Task System Explained"
+date: 2026-01-23
+video_id: 6omInQipcag
+channel: ray-amjad
+---
+
 All right, so yesterday we had a pretty 
 interesting Claude Code update that may  
 change the way that many of you fundamentally 

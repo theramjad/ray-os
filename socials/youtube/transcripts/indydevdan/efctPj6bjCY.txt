@@ -1,3 +1,10 @@
+---
+title: "My 4-Layer Claude Code Playwright CLI Skill  (Agentic Browser Automation)"
+date: 2026-02-16
+video_id: efctPj6bjCY
+channel: indydevdan
+---
+
 What's up engineers? Indie Devdan here.
 With the right skills, your agent can do
 tons of work for you. You know this, but

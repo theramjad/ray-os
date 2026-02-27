@@ -1,3 +1,10 @@
+---
+title: "Claude Code + Figma MCP Is The Greatest AI Design System I've Ever Used!"
+date: 2026-02-19
+video_id: mBJNfze9H0I
+channel: worldofai
+---
+
 Enthropic has officially filled one of
 the biggest gaps in AI powered front-end
 development with the new bridge between

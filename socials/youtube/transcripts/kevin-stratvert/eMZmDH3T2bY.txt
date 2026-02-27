@@ -1,3 +1,10 @@
+---
+title: "Claude Code Tutorial for Beginners"
+date: 2025-12-22
+video_id: eMZmDH3T2bY
+channel: kevin-stratvert
+---
+
 I don't write code by hand anymore. I just ask 
 Claude. And in this video, I've partnered with  
 Anthropic to break down three things that I wish 

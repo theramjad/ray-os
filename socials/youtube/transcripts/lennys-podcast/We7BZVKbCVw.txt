@@ -1,3 +1,10 @@
+---
+title: "Head of Claude Code: What happens after coding is solved | Boris Cherny"
+date: 2026-02-19
+video_id: We7BZVKbCVw
+channel: lennys-podcast
+---
+
 100% of my code is written by quad code.
 I have not edited a single line by hand
 since November. Every day I ship 10, 20,

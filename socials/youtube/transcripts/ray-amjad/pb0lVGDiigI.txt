@@ -1,3 +1,10 @@
+---
+title: "Anthropic Reveals How to Prompt Claude Code 10x Better"
+date: 2025-11-27
+video_id: pb0lVGDiigI
+channel: ray-amjad
+---
+
 By the end of the video, you will be 
 significantly better at prompting Claude's  
 Opus 4.5 model because I'll be going through 

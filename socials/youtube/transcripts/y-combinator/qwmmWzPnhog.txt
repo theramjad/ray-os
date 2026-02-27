@@ -1,3 +1,10 @@
+---
+title: "We're All Addicted To Claude Code"
+date: 2026-02-06
+video_id: qwmmWzPnhog
+channel: y-combinator
+---
+
 I feel like when I'm using quad code,
 it's like, oh, I feel like I'm flying
 through the code.

@@ -1,5 +1,5 @@
 ---
-status: to-film
+status: filmed
 ---
 
 Most engineers approach AI the same way they'd brief a junior developer: "Here's the problem, here's how I'd solve it, now go implement my solution." They describe the procedure. Step one, do this. Step two, do that. Use this library. Structure it this way.

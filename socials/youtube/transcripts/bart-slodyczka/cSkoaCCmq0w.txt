@@ -1,3 +1,10 @@
+---
+title: "Learn 90% Of Claude Code Agent Teams in 22 Minutes (Opus 4.6)"
+date: 2026-02-13
+video_id: cSkoaCCmq0w
+channel: bart-slodyczka
+---
+
 Hello legends. In this video, I'm going
 to turn you into a master of claude code
 agent teams. So, as you know, we

@@ -1,3 +1,10 @@
+---
+title: "How to Use the Claude Code Playground Plugin"
+date: 2026-02-17
+video_id: _VBmr6Rh56Y
+channel: gritai-studio
+---
+
 The Claude code team just shipped a new
 playground plug-in and essentially gives
 us a whole new way to interact with

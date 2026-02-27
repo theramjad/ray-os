@@ -1,3 +1,10 @@
+---
+title: "Introducing Claude Code"
+date: 2025-02-24
+video_id: AJpK3YTTKZ4
+channel: anthropic
+---
+
 Should we be doing like big smile or?
 - No, what you're doing-
 - Big smile's creepy.

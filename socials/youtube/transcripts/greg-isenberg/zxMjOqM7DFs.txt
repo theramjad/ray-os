@@ -1,3 +1,10 @@
+---
+title: "Claude Code Clearly Explained (and how to use it)"
+date: 2026-01-19
+video_id: zxMjOqM7DFs
+channel: greg-isenberg
+---
+
 So, you want to use Claude Code. You
 want to get the most of it, but you
 don't know exactly how. This is a crash

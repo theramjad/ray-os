@@ -1,3 +1,10 @@
+---
+title: "Anthropic Just Added These Features to Claude Code"
+date: 2025-12-10
+video_id: IiA4Ku5viyg
+channel: ray-amjad
+---
+
 Okay, so earlier today, some interesting 
 new features were added to Claude Code,  
 so we will be going over them, as well as many 

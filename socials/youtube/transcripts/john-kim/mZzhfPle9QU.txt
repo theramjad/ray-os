@@ -1,3 +1,10 @@
+---
+title: "How I use Claude Code (Meta Staff Engineer Tips)"
+date: 2026-02-07
+video_id: mZzhfPle9QU
+channel: john-kim
+---
+
 Hello. Hello there. How's it going
 everybody? Today we're going to go over
 my 50 cloud code tips. I've been working

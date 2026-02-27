@@ -1,3 +1,10 @@
+---
+title: "Claude Code is all you need in 2026"
+date: 2026-01-14
+video_id: 0hdFJA-ho3c
+channel: brian-casel
+---
+
 Clog code in 2026 is not what it was
 when it launched almost a year ago. And
 if you're just coming into AI assisted

@@ -1,3 +1,10 @@
+---
+title: "Anthropic killed Tool calling"
+date: 2026-02-22
+video_id: 3wglqgskzjQ
+channel: ai-jason
+---
+
 So, entropy has released a list of
 really interesting updates for the
 agenda tool calling then not a lot of

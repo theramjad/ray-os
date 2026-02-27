@@ -1,3 +1,10 @@
+---
+title: "I Gave Opus 4.6 an Entire Dev Team - Claude Code Agent Teams"
+date: 2026-02-10
+video_id: KCJsdQpcfic
+channel: leon-van-zyl
+---
+
 Opus 4.6 was just released and along
 with it a really cool experimental
 feature called agent teams. Watch this.

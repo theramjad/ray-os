@@ -1,3 +1,10 @@
+---
+title: "Claude Code's Biggest Update in Months"
+date: 2026-01-08
+video_id: NmKdYlODC24
+channel: ray-amjad
+---
+
 Alright, so after about two weeks, we're 
 back with more Claude Code updates and I'm  
 gonna go through most of the features 

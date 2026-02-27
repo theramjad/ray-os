@@ -19,7 +19,9 @@
       "mcp__supabase__execute_sql",
       "WebFetch(domain:www.linkedin.com)",
       "WebFetch(domain:arxiv.org)",
-      "Skill(excalidraw-gen)"
+      "Skill(excalidraw-gen)",
+      "WebSearch",
+      "WebFetch(domain:wmedia.es)"
     ]
   }
 }
