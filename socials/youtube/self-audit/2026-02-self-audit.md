@@ -210,3 +210,106 @@ Videos 7-8-9 show a concerning trend: the hooks become more formulaic ("Okay, so
 | Feature roundup | 2, 3, 5, 6, 8, 9 | **19,924** |
 
 Focused videos average **25% more views** than roundups on your channel.
+
+---
+
+## Pitch & CTA Hypotheses to Test
+
+**Date added:** 2026-02-28
+**Data source:** Stripe revenue analysis cross-referenced with transcript CTA language (see `revenue/2026-02-pitch-analysis.md`)
+
+### The Core Tension
+
+The competitor research says outliers use zero/minimal CTAs (83%) and that early CTAs hurt retention → more views.
+
+But the Stripe data says masterclass-first openings earn 85% more and urgency earns 2.1x more → more revenue.
+
+These are optimising for different things. The answer probably depends on the video type:
+- **Pillar/prestige videos** (50 tips, deep dives) → optimise for reach → lighter pitch, newsletter-first?
+- **Regular weekly videos** (feature updates) → optimise for revenue → masterclass-first with urgency?
+
+### Hypotheses
+
+**H1: Newsletter-first opening vs Masterclass-first opening**
+- Current data: masterclass-first earned 85% more ($9,057 vs $4,880 avg)
+- But: newsletter-first videos also had no urgency and the highest price — can't cleanly isolate
+- Test: try newsletter-first opening WITH urgency on the masterclass in the closing
+- Measure: 3-day Stripe revenue + newsletter signups (if trackable)
+
+**H2: 2-minute pitch vs 1-minute pitch**
+- Current pattern: opening pitches are ~15–30 seconds
+- Hypothesis: a 2-minute opening that delivers genuine value BEFORE the pitch (e.g. a quick tip, then "this video is sponsored by myself") might retain better than pitching at second 15
+- The 50 tips video naturally does this — tip 1 lands, THEN the pitch could follow
+- Test: compare retention curves on videos with 15-second vs 2-minute pitch placement
+- Risk: longer pitch might lose people who came for content, not a sales pitch
+
+**H3: Permanent price escalation vs No urgency (at current $219 price)**
+- The Jan 19 "it will get more expensive over time" framing earned 2.2x more than temporary sales
+- At $219, you've exhausted the "sale" lever — but you can still use genuine price escalation
+- Test: announce a specific price increase tied to new content ("adding 20 lessons on X, price goes up to $249")
+- This only works if the price actually goes up — viewers who waited for Jan 19 actually paid more
+
+**H4: Concrete deliverable CTA vs Vague "I cover this in the class"**
+- Only one data point (Jan 19: "you can download it" → $16,603) but it's the strongest video
+- Test: every mid-video CTA should reference a specific downloadable (skill, config, hook, template)
+- Even if the same content exists either way, framing it as "download this" vs "learn about this" may convert differently
+
+**H5: Social proof placement — opening vs closing**
+- "Best at their company" in opening (Jan 8): $11,288
+- "Gotten promoted" in closing (Feb 21): $4,584
+- Same quality of proof, 2.5x difference based on position
+- Test: put the strongest social proof line in the opening pitch, not the closing
+
+**H6: "Sponsored by myself" framing — bring it back?**
+- Used Jan 2–23, dropped after that. Videos with it averaged $9,697 vs $5,017 without (+93%)
+- It also matches the "honest/authentic" signal the self-audit identified as a strength
+- Test: reintroduce "this video is sponsored by myself" in the next regular video
+- May also help with the retention issue — framing the pitch as a deliberate segment rather than an interruption
+
+**H7: Video type determines CTA strategy**
+- Pillar videos (50 tips, compressed mastery): newsletter-first opening, masterclass in closing with deliverable CTAs mid-video, optimise for reach and list growth
+- Regular update videos: masterclass-first opening with urgency, social proof, self-sponsor framing, optimise for revenue
+- Test: track revenue AND views separately for each type over the next 4-6 videos
+
+### Testing Priority
+
+1. **H6** (self-sponsor framing) — easiest to test, just add the line back. Next regular video.
+2. **H3** (price escalation) — only if you're actually raising the price. Time it with a content drop.
+3. **H7** (type-based CTA strategy) — apply newsletter-first to the 50 tips video, masterclass-first to the next regular video, compare.
+4. **H1** (newsletter vs masterclass opening) — needs H7 context first.
+5. **H4** (deliverable CTAs) — apply to every video going forward, no downside.
+6. **H5** (social proof placement) — apply to next video, easy.
+7. **H2** (2-min vs 1-min) — harder to measure cleanly, lower priority.
+
+---
+
+## Next Video: Pitch Plan for 50 Tips
+
+The 50 tips video is a pillar video — longest, highest-effort content. The goal is reach + list growth, with revenue as secondary.
+
+**Recommended structure:**
+
+**Opening (first 2 minutes):**
+1. Visual hook (first 5 seconds) — show the most impressive tip result on screen before speaking
+2. Tip 1 lands immediately — "The only limit is your imagination"
+3. After tip 1, slot in the pitch:
+
+> "Before we continue — to celebrate the first year of Claude Code, I also just launched a free Claude Code newsletter where I share techniques, workflow breakdowns, and free bonus videos you won't find on the channel. Link below if you're interested. And if you want to go even deeper, over a thousand engineers have taken my Claude Code Masterclass — many of them are now the best Claude Code user at their company. Link for that is below too."
+
+This hits: newsletter-first (free, low friction for a high-reach video), social proof ("over a thousand engineers", "best at their company"), and mentions the masterclass without hard-selling it.
+
+**Mid-video CTAs (contextual, with deliverables):**
+- Tip 30 (Mermaid): "I have a free Mermaid verification skill you can download from the Masterclass"
+- Tip 31: Keep "I have a free skill for this" — it's already good
+- Tip 1: Change from "I cover this" to "I have a full walkthrough with the exact configs you can download"
+
+**Closing (after tip 58):**
+
+> "That's 50+ tips from 1,500 hours. If you want to go deeper on any of them, the Masterclass has full walkthroughs, downloadable skills, and configs for most of what I showed today. I'm adding [specific new section] soon and the price will go up when that drops — link below to lock it in. And if you just want free techniques in your inbox, the newsletter's down there too."
+
+This hits: masterclass as the closing CTA (not newsletter), permanent price escalation (only if real), deliverable framing, newsletter as secondary.
+
+**What NOT to do:**
+- Don't mention team purchases or sales calls — this is an individual-buyer video
+- Don't use more than 3 mid-video CTAs — the self-audit flags CTA fatigue
+- Don't pitch before delivering at least one tip
