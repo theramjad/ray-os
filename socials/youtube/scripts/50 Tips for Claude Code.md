@@ -1,80 +1,145 @@
-Include
-Mention Aparajita's plan manager: https://github.com/aparaji
+To Add -- Modularise your files otherwise your context window will blow up if they're crazy long.
+![[Pasted image 20260227191417.png]]
+![[Pasted image 20260227191549.png]]
+
+To Add -- I like to do things that give me security over vibe code. Spec developer helps you understand the code better. mermaid diagrams also help
+![[Pasted image 20260227211132.png]]
+
+To Add -- Continue into a new plan mode if a new feature leads well from a older one. Chat will be cleared away. You've already fetched a lot of relevant context.
+![[Pasted image 20260227213608.png]]
+
 
 ## Mindset
 
 1. **The only limit is your imagination** — you can get it to edit videos, reconnect to Starbucks Wi-Fi automatically, make your own software to explore your DNA, use dating app API endpoints to get a girlfriend. If you want more detail, I cover this in my Claude Code Masterclass.
-2. **Update your mental model of where the models are** — they're capable of more than you think. Don't assume "the model can't do this." Just try it and you'll often be surprised. People are still stuck to old ways of thinking about models and have old habits. They tried something months ago, the model couldn't do it and never bother to re-try.
-3. **Let the model discover context itself** — don't front-load 20 files into the conversation. The task might be simpler than you think, or you might give it the wrong files and waste context window on irrelevant info.
-4. **Be aware of "code bias"** — agents are biased toward existing code patterns. When stuck in loops, the agent can't think outside the current codebase's configuration. Sometimes I just run Claude Code in a brand new folder from scratch to get it to implement something and copy that over into the old project.
+![[images/50-tips/tip-01-imagination/excalidraw_2.png]]
 
+2. **Update your mental model of where the models are** — they're capable of more than you think. Don't assume "the model can't do this." Just try it and you'll often be surprised. People are still stuck to old ways of thinking about models and have old habits. They tried something months ago, the model couldn't do it and never bother to re-try. Your old bad habits last much longer than model updates.
+![[images/50-tips/tip-02-mental-model/excalidraw_1.png]]
+3. **Let the model discover context itself** — don't front-load 20 files into the conversation. The task might be simpler than you think, or you might give it the wrong files and waste context window on irrelevant info.
+![[images/50-tips/tip-03-discover-context/excalidraw_1.png]]
+4. **Be aware of "code bias"** — agents are biased toward existing code patterns. When stuck in loops, the agent can't think outside the current codebase's configuration. Sometimes I just run Claude Code in a brand new folder from scratch to get it to implement something and copy that over into the old project.
+![[images/50-tips/tip-04-code-bias/excalidraw_3.png]]
 ## Setup & Environment
 
 5. **Use `--dangerously-skip-permissions` with sandboxing to block internet access** — get fully autonomous speed while scoping Claude's reach to only what's safe. The hooks act as the guardrail that makes the permission skip safe.
-6. **Use hooks for guardrails, linting, and blocking destructive actions** — hooks run before or after every tool call and act as deterministic guardrails around the non-deterministic agent. Pre-tool hooks prevent prompt injection — even if Claude gets injected via malicious file or web content, it can't send emails or run destructive commands. You can also block specific destructive patterns like `rm -rf` or database drops — set these up in `/permissions` so even `--dangerously-skip-permissions` won't bypass them.
-7. **Use Ghostty as your terminal** — GPU-accelerated, native splits, tab renaming, command palette (`Cmd+Shift+P`), and bell features that integrate perfectly with Claude Code hooks.
-8. **Ring the terminal bell when Claude needs your input** — add a global Notification hook in `~/.claude/settings.json` with matcher `permission_prompt|idle_prompt` that runs `tput bel`. Pair with Ghostty's `bell-features = title,attention` so background tabs get a bell indicator that clears when you focus them. When you're juggling multiple Claude instances across tabs, the bell tells you exactly which tab needs attention — you just switch to the one with the indicator, handle it, and move on. It turns Ghostty into a notification system for your parallel Claude sessions.
-9. **Split panes to run multiple Claude sessions side-by-side** — in Ghostty: `Cmd+D` splits right, `Cmd+Shift+D` splits down, `Cmd+Option+Arrows` moves focus. Run one Claude per pane for parallel workstreams.
-10. **Run multiple Claude instances in parallel like Factorio** — the real power of Claude Code isn't one session — it's juggling five at once. Have one instance building a feature, another investigating a bug, another writing tests, another working on a completely different project. Use `Cmd+D` in Ghostty to split panes or open multiple tabs and rename them by task. It feels like playing Factorio — you're designing automated production lines, checking on each one, spotting bottlenecks, and connecting new supply chains. Your bottleneck shifts from "how fast can I code" to "how well can I design my pipeline."
-11. **Use Obsidian as your notes/docs tool** — your vault is just markdown files on disk, so Claude can read, write, and link them directly. Backlinks and graph view let you spot patterns across notes.
-12. **Use a voice-to-text tool for prompting** — talk instead of type. It's faster for explaining what you want, especially for longer or more nuanced prompts. Tools like HyperWhisper work well.
-13. **Use `/add-dir` to work across two projects at once** — migrating logic between apps? Have Claude look at how payments are set up in app A, then copy the relevant logic into app B in a way that fits.
-14. **Turn on verbose mode to see Claude's thinking** — run `claude --verbose` or press `Ctrl+O` mid-session to toggle it on. Verbose mode shows you everything normally hidden — the full tool call details, extended thinking blocks streamed in real time, and how Claude is building its context. This is how you catch bad assumptions early: you see Claude reasoning its way toward a wrong approach and hit `Escape` before it writes any code. Especially useful when debugging why Claude is missing files, misinterpreting your project, or behaving weirdly with MCPs. For even deeper diagnostics, combine with `--debug`.
+![[images/50-tips/tip-05-skip-permissions/excalidraw_1.png]]
 
+6. **Use hooks for guardrails, linting, and blocking destructive actions** — hooks run before or after every tool call and act as deterministic guardrails around the non-deterministic agent. Pre-tool hooks prevent prompt injection — even if Claude gets injected via malicious file or web content, it can't send emails or run destructive commands. You can also block specific destructive patterns like `rm -rf` or database drops — set these up in `/permissions` so even `--dangerously-skip-permissions` won't bypass them.
+![[images/50-tips/tip-06-hooks-guardrails/excalidraw_2.png]]
+7. **Use Ghostty as your terminal** — GPU-accelerated, native splits, tab renaming, command palette (`Cmd+Shift+P`), and bell features that integrate perfectly with Claude Code hooks.
+![[images/50-tips/tip-07-ghostty/excalidraw_3.png]]
+8. **Ring the terminal bell when Claude needs your input** — add a global Notification hook in `~/.claude/settings.json` with matcher `permission_prompt|idle_prompt` that runs `tput bel`. Pair with Ghostty's `bell-features = title,attention` so background tabs get a bell indicator that clears when you focus them. When you're juggling multiple Claude instances across tabs, the bell tells you exactly which tab needs attention — you just switch to the one with the indicator, handle it, and move on. It turns Ghostty into a notification system for your parallel Claude sessions.
+![[images/50-tips/tip-08-terminal-bell/excalidraw_3.png]]
+9. **Split panes to run multiple Claude sessions side-by-side** — in Ghostty: `Cmd+D` splits right, `Cmd+Shift+D` splits down, `Cmd+Option+Arrows` moves focus. Run one Claude per pane for parallel workstreams.
+![[images/50-tips/tip-09-split-panes/excalidraw_2.png]]
+10. **Run multiple Claude instances in parallel like Factorio** — the real power of Claude Code isn't one session — it's juggling five at once. Have one instance building a feature, another investigating a bug, another writing tests, another working on a completely different project. Use `Cmd+D` in Ghostty to split panes or open multiple tabs and rename them by task. It feels like playing Factorio — you're designing automated production lines, checking on each one, spotting bottlenecks, and connecting new supply chains. Your bottleneck shifts from "how fast can I code" to "how well can I design my pipeline."
+![[images/50-tips/tip-10-parallel-factorio/excalidraw_3.png]]
+11. **Use Obsidian as your notes/docs tool** — your vault is just markdown files on disk, so Claude can read, write, and link them directly. Backlinks and graph view let you spot patterns across notes.
+![[images/50-tips/tip-11-obsidian/excalidraw_1.png]]
+12. **Use a voice-to-text tool for prompting** — talk instead of type. It's faster for explaining what you want, especially for longer or more nuanced prompts. Tools like HyperWhisper work well.
+![[images/50-tips/tip-12-voice-to-text/excalidraw_3.png]]
+13. **Use `/add-dir` to work across two projects at once** — migrating logic between apps? Have Claude look at how payments are set up in app A, then copy the relevant logic into app B in a way that fits.
+![[images/50-tips/tip-13a-add-dir/excalidraw_1.png]]
+14. **Turn on verbose mode to see Claude's thinking** — run `claude --verbose` or press `Ctrl+O` mid-session to toggle it on. Verbose mode shows you everything normally hidden — the full tool call details, extended thinking blocks streamed in real time, and how Claude is building its context. This is how you catch bad assumptions early: you see Claude reasoning its way toward a wrong approach and hit `Escape` before it writes any code. Especially useful when debugging why Claude is missing files, misinterpreting your project, or behaving weirdly with MCPs. For even deeper diagnostics, combine with `--debug`.
+![[images/50-tips/tip-14a-verbose-mode/excalidraw_1.png]]
 ## Context Engineering
 
 13. **Use hierarchical CLAUDE.md files** — there are three levels: enterprise-wide rules at `~/.claude/CLAUDE.md` (coding standards, compliance), project rules at `./CLAUDE.md` (architecture, conventions), and personal preferences at `.claude/CLAUDE.local.md` (gitignored — your own style like "I'm a beginner with TypeScript, explain changes clearly"). They load in order, higher levels first. Within each file, rules are read top to bottom in priority order — put your most important rules at the top ("never do X", "always do Y") with clear snippets and examples. The project CLAUDE.md can live in the root or in `.claude/CLAUDE.md` — both work the same. Share it via Git so the whole team gets the same instructions. When you commit it, keep the bar high — strip out anything that's just your local file paths or personal preferences, because every teammate's context window will load this file.
+![[images/50-tips/tip-13b-hierarchical-claude-md/excalidraw_2.png]]
 14. **Keep root CLAUDE.md short** — put platform-specific context in subdirectory CLAUDE.md files. If you have a monorepo with a Next.js website and a macOS app, each subfolder gets its own CLAUDE.md with only relevant instructions. Claude Code reads memories recursively — when it's editing files in the macOS folder, it loads that subfolder's CLAUDE.md automatically.
+![[images/50-tips/tip-14b-keep-root-short/excalidraw_2.png]]
 15. **Use `@file` references to split large context** — when your CLAUDE.md grows too long, extract sections into separate files and reference them with `@claude-memories/i18n.md`. For example, your i18n formatting rules, your database schema conventions, or your design system tokens can each live in their own file. Claude loads them only when it encounters the `@` reference.
+![[images/50-tips/tip-15-at-file-references/excalidraw_1.png]]
 16. **As your project grows, add more CLAUDE.md files** — agent confusion increases with codebase size. When Claude starts making weird decisions in a specific area of your codebase, that's a signal you need a subdirectory CLAUDE.md there. These files activate only when Claude reads or edits files in that folder, keeping context focused and reducing noise.
+![[images/50-tips/tip-16-add-more-claude-md/excalidraw_1.png]]
 17. **Ask Claude to update your CLAUDE.md — never edit it manually** — when Claude makes a mistake or you notice it doing something wrong, fix it manually and then tell Claude "update the rules so we never do this again." It'll add the right rule to the right CLAUDE.md file. Think of it like lint rules — every mistake becomes a permanent fix. Over time, your CLAUDE.md evolves into a living style guide shaped by real sessions, not hypothetical rules you wrote upfront.
+![[images/50-tips/tip-17-ask-claude-update-claude-md/excalidraw_2.png]]
 
 ## Prompting
 
 20. **Use the agent's own terminology in follow-up prompts** — if Claude calls it a "CDN download URL" vs "direct download URL," use those exact terms. It helps it find the right code faster and be more precise. If Claude mentions "disposable domain checking," reference that phrase back — it'll know exactly what part of the codebase you mean. If you find yourself pushing Claude hard to get it to do something, your terminology is probably wrong.
+![[images/50-tips/tip-20-agent-terminology/excalidraw_1.png]]
 21. **Use screenshots to show Claude what you want** — it's multimodal. Screenshot a UI bug, a design reference, or a competitor's feature and drop it into the conversation. You can also screenshot mockups or designs and use them as lightweight PRDs — much faster than writing out exactly what you want.
+![[images/50-tips/tip-21-screenshots/excalidraw_3.png]]
 22. **Tell Claude to ask you clarifying questions first** — for complex features, say "ask me questions before starting." In plan mode, this triggers the Interactive Questions tool which shows up to four multiple-choice or free-text questions at a time. Claude will ask about grid sizes, navigation methods, edge cases — stuff you'd forget to specify. Answer them, submit, and the plan will be way more comprehensive.
+![[images/50-tips/tip-22-clarifying-questions/excalidraw_3.png]]
 23. **Use `/rewind` when Claude goes in the wrong direction** — instead of trying to talk it back on course, rewind to before the bad turn and re-prompt with better guidance. This is cleaner than arguing with stale context, because the bad decisions are removed from the conversation entirely instead of lingering and biasing future outputs.
-
+![[images/50-tips/tip-23-rewind/excalidraw_2.png]]
 ## Planning
 
 25. **Start in plan mode for non-trivial features** — switch to plan mode with `Shift+Tab`, describe what you want (use voice-to-text for speed), let Claude explore the codebase, then review the plan before any code gets written. I describe the feature, it explores the analytics API patterns, database schema, and existing code, then comes back with a plan after about five minutes.
-26. **Use a spec developer skill for comprehensive plans** — a custom slash command that asks you detailed clarifying questions about edge cases, then produces an 800+ line implementation plan with file references. I answered 20-30 questions from the spec developer — things like "should there be region groups for the country picker?" and "how should IP data be shown to creators?" — stuff I would have missed. The resulting plan has references to every file that needs changing.
-27. **Have explore subagents check the codebase before spec developer asks questions** — tell it to "first explore the codebase with 4-5 explore subagents based on the plan before asking me questions." When the spec developer's questions are grounded in actual code (not just the plan), you get questions about real edge cases in your specific codebase rather than generic ones.
-28. **After implementation, spawn 5 explore subagents to verify the plan** — assign each to check a different aspect of the plan and ensure full coverage. Report back with anything missing from the codebase that wasn't implemented. If both Claude Code and Codex confirm the plan was fully implemented, you can be pretty confident it was done right.
-29. **Verify implementation with Mermaid Diagrams** — after Claude finishes implementing a feature, have it generate a Mermaid diagram of what it actually built — the data flow, component relationships, or state transitions. Compare that diagram against your original plan. If something's missing or wrong, you'll spot it instantly in the visual rather than hunting through dozens of files. I go deeper on this workflow in the Masterclass.
-30. **Plan in one session, execute in another** — spend a whole session exploring, testing, and refining a plan. Write it to a file. Start a fresh session at 10-15% context and tag the plan file. The implementation will be faster and more focused — I've seen it go from 58% context usage down to 21% in the new session, and the code quality is better because there's no poisonous early context from failed explorations or dead-end ideas.
-31. **Re-enter plan mode for the next stage of the plan** — after Claude finishes implementing one section, switch back into plan mode before tackling the next section. This forces it to re-read the plan, check what's been done, and think about what's next rather than just charging ahead. Especially important for long plans with multiple phases.
+![[images/50-tips/tip-25-plan-mode/excalidraw_1.png]]
+You should dictate, if you're interest in what exactly that should be then you can watch this video.
 
+26. **Use a spec developer skill for comprehensive plans** — a custom slash command that asks you detailed clarifying questions about edge cases, then produces an 800+ line implementation plan with file references. I answered 20-30 questions from the spec developer — things like "should there be region groups for the country picker?" and "how should IP data be shown to creators?" — stuff I would have missed. The resulting plan has references to every file that needs changing.
+![[images/50-tips/tip-26-spec-developer/excalidraw_3.png]]
+27. **Have explore subagents check the codebase before spec developer asks questions** — tell it to "first explore the codebase with 4-5 explore subagents based on the plan before asking me questions." When the spec developer's questions are grounded in actual code (not just the plan), you get questions about real edge cases in your specific codebase rather than generic ones.
+![[images/50-tips/tip-27-explore-before-spec/excalidraw_1.png]]
+28. **After implementation, spawn 5 explore subagents to verify the plan** — assign each to check a different aspect of the plan and ensure full coverage. Report back with anything missing from the codebase that wasn't implemented. If both Claude Code and Codex confirm the plan was fully implemented, you can be pretty confident it was done right.
+
+![[images/50-tips/tip-28-verify-subagents/excalidraw_2.png]]
+29. **Verify implementation with Mermaid Diagrams** — after Claude finishes implementing a feature, have it generate a Mermaid diagram of what it actually built — the data flow, component relationships, or state transitions. Compare that diagram against your original plan. If something's missing or wrong, you'll spot it instantly in the visual rather than hunting through dozens of files. I go deeper on this workflow in the Masterclass.
+![[images/50-tips/tip-29-mermaid-diagrams/excalidraw_2.png]]
+You can either make this script yourself or find it in my Claude Code Masterclass.
+
+30. **Plan in one session, execute in another** — spend a whole session exploring, testing, and refining a plan. Write it to a file. Start a fresh session at 10-15% context and tag the plan file. The implementation will be faster and more focused — I've seen it go from 58% context usage down to 21% in the new session, and the code quality is better because there's no poisonous early context from failed explorations or dead-end ideas.
+
+![[images/50-tips/tip-30-plan-then-execute/excalidraw_2.png]]
+30. Save plans -- Often since I'm moving so fast. I may decide something is a bad idea a few days later and want to undo that change. It's easier to point at a past plan. I can also just have a good reference for Claude. Easier than Claude searching through the commit history
+31. **Re-enter plan mode for the next stage of the plan** — after Claude finishes implementing one section, switch back into plan mode before tackling the next section. This forces it to re-read the plan, check what's been done, and think about what's next rather than just charging ahead. Especially important for long plans with multiple phases.
+![[images/50-tips/tip-31-re-enter-plan-mode/excalidraw_1.png]]
 ## Session Management
 
 32. **Start fresh chats for unrelated tasks** — context switching (profile API, then landing page design, then auth fix) degrades performance. By your third or fourth context switch, the model performs much worse than a brand new chat — even at the same total token count. So instead of doing profile API → design change → auth fix → research → profile page → scraper, you batch related tasks: profile API + profile page in one chat, auth fix in another, research + scraper in another.
+![[images/50-tips/tip-32-fresh-chats/excalidraw_2.png]]
 33. **Group related tasks in the same session** — building a profile API route, then creating the profile page that uses it? That's related context — keep it in one chat. Small context switches (like fixing a typo you noticed on the landing page) are fine. But if it's a bigger task, start a new chat.
-34. **Compact when on track; clear when confused** — ask yourself: am I still doing the same task? Is the model still progressing clearly — editing the right files, on track? Have I compacted recently? If yes to all, `/compact` is safe. If the model seems confused, is making insane edits, or you've compacted too much already, start a brand new chat instead.
+![[images/50-tips/tip-33-group-related/excalidraw_1.png]]
+34. **Compact when on track; clear when confused**. I compact a little more often now as Opus 4.6 handles it better. Before I never did. I ask myself: am I still doing the same task? Is the model still progressing clearly — editing the right files, on track? Have I compacted recently? If yes to all, `/compact` is safe. If the model seems confused, is making insane edits, or you've compacted too much already, start a brand new chat instead.
+![[images/50-tips/tip-34-compact-vs-clear/excalidraw_1.png]]
 35. **Write bug fix attempts to a file before starting new chat** — when a bug fix isn't working and you've been going in circles, tell Claude to write everything it tried so far into a brand new file. Start a fresh session, load that file first, and tell it to avoid repeating those attempts. This breaks the "repeat the same failed fix" loop. The file is also useful for other engineers on your team to understand what's been tried.
+![[images/50-tips/tip-35-bug-fix-file/excalidraw_3.png]]
 36. **Long context = repetition loops** — when the context window fills up, agents favor repeating past actions over synthesizing novel plans. Even if you tell it "don't do that again," it will. The history of all those failed attempts is right there in context, pulling the model back toward the same approaches. If you see the same fix attempted three times, it's time for a fresh chat.
+![[images/50-tips/tip-36-repetition-loops/excalidraw_1.png]]
 37. **Turn off auto-compact for more control** — auto-compact can fire at bad times. For example, you're at 85% context, running a build command that takes a while — auto-compact fires mid-build, takes a few minutes, and loses context you cared about. Then when it does `git commit`, the commit message is bad because it lost the context of what it was doing. Turn it off with `/config`, then manually `/compact` or start fresh when you decide. Ideally don't do difficult problem solving past 50-60% of the context window.
+![[images/50-tips/tip-37-auto-compact-off/excalidraw_3.png]]
 38. **The model knows when it's running out of context and will rush** — Claude is aware of its own context window. As it fills up, the model starts to panic and rush, giving incomplete solutions or cutting corners. If you see this happening — the model suddenly trying to do everything in one go instead of being methodical — write the plan to a file and continue in a fresh session before the quality degrades further.
+![[images/50-tips/tip-38-model-rushes/excalidraw_3.png]]
 39. **Use `/handoff` to pass state between sessions** — a custom slash command that writes everything Claude has done so far into a file. Start a fresh session, tag that file, and continue. Before loading it into the new session, edit the handoff file to strip out any bad decisions or dead ends — things that were "poisonous" to the previous context window. Only the relevant context carries over, so the new session is cleaner and more focused.
+![[images/50-tips/tip-39-handoff/excalidraw_2.png]]
 40. **Use `/context` to audit your token usage** — run `/context` to see a visual breakdown of what's eating your context window. MCPs are a common offender — each tool call adds up fast, and you won't notice until you're wondering why Claude feels slow or confused. If you see one MCP dominating your usage, disable it for that directory or find a lighter alternative. Make this a habit: audit periodically, especially when costs spike or quality drops.
+![[images/50-tips/tip-40-context-audit/excalidraw_1.png]]
 41. **Show context usage in your statusline** — configure a persistent statusline at the bottom of Claude Code so you always see your context percentage, model name, and session cost without running a command. The easiest way: type `/statusline show model name and context percentage with a progress bar` and Claude generates the script for you. It pipes JSON with your token counts, model info, cost, and more into any shell script you write. Once it's set up, you'll never accidentally hit 80% context without realizing it — you'll see the bar filling up in real time and know when to start a fresh session.
-41. **Use `/resume` and `/rename` to manage sessions** — if you accidentally kill a Claude instance or close the wrong terminal tab, `/resume` lets you recover the session and pick up where you left off instead of rebuilding all that context from scratch. Pair it with `/rename` to give your sessions descriptive names — like "profile-api" or "auth-refactor" — so when you need to resume, you're not guessing which session was which from a list of timestamps.
-
+![[images/50-tips/tip-41a-statusline/excalidraw_1.png]]
+42. **Use `/resume` and `/rename` to manage sessions** — if you accidentally kill a Claude instance or close the wrong terminal tab, `/resume` lets you recover the session and pick up where you left off instead of rebuilding all that context from scratch. Pair it with `/rename` to give your sessions descriptive names — like "profile-api" or "auth-refactor" — so when you need to resume, you're not guessing which session was which from a list of timestamps.
+![[images/50-tips/tip-41b-resume-rename/excalidraw_2.png]]
 ## Subagents, Skills & Hooks
 
 42. **Use explore subagents to understand code before changing it** — don't modify code you haven't read. Let explore subagents scan first, then make informed changes. This is especially important as projects grow — Claude can get confused about which patterns to follow when there are multiple ways things are done across the codebase.
+![[images/50-tips/tip-42-explore-subagents/excalidraw_3.png]]
 43. **Use multiple proposals for hard decisions** — have 2-3 subagents each generate a different approach, then pick the best one. Different approaches surface trade-offs you wouldn't see from a single proposal. Each subagent might find a different optimal path through the problem.
+![[images/50-tips/tip-43-multiple-proposals/excalidraw_3.png]]
 44. **Create custom slash commands for repeated prompts** — put them in `.claude/commands/` as markdown files. You can specify a cheaper model (Haiku for commits — committing doesn't need heavy reasoning), restrict allowed tools (only `git add`, `git status`, `git commit`), and use positional arguments (`$1`, `$2`) for flexible reuse. I have `/end-session` for committing, `/spec-developer` for planning, and `/start-session` for kicking off a new work block. Running a slash command is the same as pasting the prompt directly, but with model and tool settings baked in.
+![[images/50-tips/tip-44-custom-slash-commands/excalidraw_3.png]]
 45. **Add logging so Claude can debug itself** — the reason agents are so good at coding is the tight feedback loop: make a change, run the code, see if it works, fix if not. Adding logging to your application gives Claude the same advantage — it can check logs, see what's actually happening, and fix issues based on real data instead of guessing. It's never been easier to just tell the agent "add debug logs to every function in this flow," let it run, read the output, and fix the issue — then tell it to remove the logs when it's done. Temporary instrumentation that would've taken you 20 minutes takes Claude 30 seconds.
+![[images/50-tips/tip-45-add-logging/excalidraw_3.png]]
 46. **Use well-known packages** — tell Claude to use popular, well-documented libraries instead of obscure ones. The model has seen more examples of popular packages in training, so it writes better, more reliable code with them. Put this in your CLAUDE.md if you have preferred libraries.
+![[images/50-tips/tip-46-well-known-packages/excalidraw_3.png]]
 47. **Mix models and modes within a workflow** — use Opus for hard reasoning and planning, switch to Sonnet or Haiku for simple edits, commits, and scripting. You can specify models per slash command so the switch is automatic — your `/end-session` command runs on Haiku because committing changes fast doesn't need Opus-level reasoning, while your main session stays on Opus for the complex work.
-
+![[images/50-tips/tip-47-mix-models/excalidraw_2.png]]
 ## Advanced & Niche
 
 49. **Use headless mode for background workflows** — run Claude Code programmatically with `claude -p "your prompt"` and it returns just the final result, no interactive UI. Add `--output-format json` with a JSON schema and you get structured data back. You can define allowed tools, max turns, and model. The real power: build a Python script that runs Claude in headless mode hundreds of times in the background — batching receipt validation, data research, content generation. If you've already built skills and subagents for a workflow, they work in headless mode too. And you can parallelize — run five headless instances at once instead of one at a time.
+![[images/50-tips/tip-49-headless-mode/excalidraw_1.png]]
 50. **Use `/copy` to make it easier to share results** — good for drafting emails or messages. Copies Claude's last response to clipboard so you can paste it directly into Slack, email, or wherever you need it.
+![[images/50-tips/tip-50-copy/excalidraw_2.png]]
 51. **Use `/insights` to spot mistakes in how you're using Claude Code** — `/insights` reviews your recent usage patterns and shows you what you're doing wrong — things like inefficient prompting habits, missed features, suboptimal CLAUDE.md rules, or workflows that could be streamlined. It gives you concrete recommendations for improvement. You may find really low-hanging fruit here that dramatically improves your experience — bad habits you didn't even know you had.
+![[images/50-tips/tip-51-insights/excalidraw_1.png]]
 52. **Use `/export` to share full session transcripts** — export to clipboard or save to a file. Great for sharing a debugging session with a colleague on Slack, documenting what Claude did for the team, or keeping a record of how a tricky problem was solved.
+![[images/50-tips/tip-52-export/excalidraw_1.png]]
 53. **Use task list management for complex multi-step projects** — break work into tasks, assign to subagents, track progress. Essential when a feature touches many files across multiple steps. The task list gives structure to what would otherwise be a chaotic session.
+![[images/50-tips/tip-53-task-list/excalidraw_2.png]]
 54. **Use worktrees so parallel sessions don't interfere with your main project** — when you're running multiple Claude instances on the same codebase, they'll step on each other's changes. Git worktrees solve this — each Claude instance gets its own isolated copy of the repo on a separate branch. They can make edits, run builds, and test independently without conflicts. When the work is done, you merge the branch back in. Essential if you're doing the multi-instance parallel workflow — without worktrees, two instances editing the same file will corrupt each other's work.
+![[images/50-tips/tip-54-worktrees/excalidraw_3.png]]
 55. **Use `/chrome` to automate browser tasks** — Claude can control a browser directly — navigate pages, click buttons, fill forms, take screenshots, and scrape data. Use it when you don't have API access to something but can get there via the web. It's composable with skills and commands: build a skill that opens Chrome, scrapes data from a dashboard, and brings it back into your session. Great for testing UI flows, grabbing data from admin panels, or automating repetitive browser work that doesn't have an API.
+![[images/50-tips/tip-55-chrome-automation/excalidraw_2.png]]
