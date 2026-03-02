@@ -2,8 +2,10 @@
 
 To celebrate the first year of Claude Code, I'll be sharing over 50 tips from over 1,500 hours of usage.
 
-1. **The only limit is your imagination** — you can get it to edit videos, reconnect to Starbucks Wi-Fi automatically, make your own software to explore your DNA, use dating app API endpoints to get a girlfriend. If you want more detail, I cover this in my Claude Code Masterclass.
+1. **The only limit is your imagination** — you can get it to edit videos, reconnect to Starbucks Wi-Fi automatically, make your own software to explore your DNA, use dating app API endpoints to get a girlfriend. If you want more detail, I have a full walkthrough with the exact configs you can download in my Masterclass.
 ![[images/50-tips/tip-01-imagination/excalidraw_2.png]]
+
+Before we continue — this video is sponsored by myself and my Claude Code Masterclass. To celebrate the first year of Claude Code, I'm running a Happy Birthday sale on the Masterclass right now. Over a thousand engineers have taken it and many of them are now the best Claude Code user at their company. Companies are paying a premium for engineers who can use Claude Code effectively — and the birthday sale is the best price you'll get. It won't last long. Link below.
 
 2. **Update your mental model of where the models are** — they're capable of more than you think. Don't assume "the model can't do this." Just try it and you'll often be surprised. People are still stuck to old ways of thinking about models and have old habits. They tried something months ago, the model couldn't do it and never bother to re-try. Your old bad habits last much longer than model updates.
 ![[images/50-tips/tip-02-mental-model/excalidraw_1.png]]
@@ -87,14 +89,13 @@ You should dictate, if you're interest in what exactly that should be then you c
 ![[images/50-tips/tip-28-verify-subagents/excalidraw_2.png]]
 30. **Verify implementation with Mermaid Diagrams** — after Claude finishes implementing a feature, have it generate a Mermaid diagram of what it actually built — the data flow, component relationships, or state transitions. Compare that diagram against your original plan. If something's missing or wrong, you'll spot it instantly in the visual rather than hunting through dozens of files. I go deeper on this workflow in the Masterclass.
 ![[images/50-tips/tip-29-mermaid-diagrams/excalidraw_2.png]]
-You can either make this script yourself or find it in my Claude Code Masterclass.
+I have a free Mermaid verification skill you can download from the Masterclass — link below with the birthday sale.
 
 31. **Use Mermaid diagrams to understand the implementation** — Before when coding manually, you practically built up a Mermaid diagrams in your mind help you actually understand how the implementation works. But now, when Claude builds something complex, having it generate a diagram gives you a mental model of the architecture — so you're not just vibing, you actually know what was built.
 
 ![[images/50-tips/tip-29b-mermaid-understanding/excalidraw_3.png]]
 
-I have a free skill for this that I shared in my masterclass, link down below.
-(Join it, and see)
+I have a free skill for this that you can download from my Masterclass — link below with the birthday sale.
 
 32. **Plan in one session, execute in another** — spend a whole session exploring, testing, and refining a plan. Write it to a file. Start a fresh session at 10-15% context and tag the plan file. The implementation will be faster and more focused — I've seen it go from 58% context usage down to 21% in the new session, and the code quality is better because there's no poisonous early context from failed explorations or dead-end ideas.
 
@@ -161,3 +162,5 @@ I have a free skill for this that I shared in my masterclass, link down below.
 ![[images/50-tips/tip-54-worktrees/excalidraw_3.png]]
 58. **Use `/chrome` to automate browser tasks** — Claude can control a browser directly — navigate pages, click buttons, fill forms, take screenshots, and scrape data. Use it when you don't have API access to something but can get there via the web. It's composable with skills and commands: build a skill that opens Chrome, scrapes data from a dashboard, and brings it back into your session. Great for testing UI flows, grabbing data from admin panels, or automating repetitive browser work that doesn't have an API.
 ![[images/50-tips/tip-55-chrome-automation/excalidraw_2.png]]
+
+That's 50+ tips from 1,500 hours of Claude Code. Happy birthday Claude Code. If you want to go deeper on any of these, the Masterclass has full walkthroughs, downloadable skills, and configs for most of what I showed today. The Happy Birthday sale is still running but it ends [date] — after that the price goes back to normal. Link below. And if you want free techniques in your inbox every week, my newsletter is down there too.
