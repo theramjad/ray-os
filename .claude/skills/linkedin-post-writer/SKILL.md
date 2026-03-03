@@ -38,6 +38,12 @@ After generating a post, always:
 2. Ask the user: "Want me to post this, or are you going to post it yourself?"
 3. If they want Claude to post → see `references/browser-navigation.md` for how
 4. Either way, log the post with appropriate status
+5. Add a todo to `todos.yaml` to check engagement in 3 days (so the good-morning-todos skill picks it up). Example:
+   ```yaml
+   - task: "Check LinkedIn engagement for '[hook first line]' post"
+     due: YYYY-MM-DD  # 3 days from posting date
+     context: "Posted on [date]. Check reactions/comments/reposts and update post-history.md."
+   ```
 
 ## Writing Viral Posts
 
