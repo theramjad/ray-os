@@ -331,7 +331,7 @@ This document summarizes all A/B tests conducted for Ray Amjad's Claude Code You
 ## Video 11: 60 Claude Code Tips (1,600 Hours)
 
 **Video ID:** `AzmnaoVP8sk`
-**Current Title:** "60 Claude Code Tips That Took Me 1,600 Hours to Learn"
+**Current Title:** "I Used Claude Code for 1,600 Hours — Here's What Works"
 **Thumbnail Text:** "What Actually Works"
 
 ### Failed Launch Titles (2026-03-02)
@@ -354,11 +354,24 @@ Original titles triggered YouTube's underperformance warning within hours: **714
 
 ### Title A/B Test Round 1 (2026-03-03) — Recovery test
 
+All titles within ~4.5% — no clear breakaway winner. "Here's What Works" leads slightly. Thumbnail swap to "What Actually Works" stabilized performance vs the failed launch.
+
 | Title | Thumbnail Text | Watch-time Share | Result |
 |-------|---------------|------------------|--------|
-| 60 Claude Code Tips That Took Me 1,600 Hours to Learn | What Actually Works | | |
-| I Used Claude Code for 1,600 Hours — Here's What Works | What Actually Works | | |
-| What 1,600 Hours of Claude Code Really Looks Like | What Actually Works | | |
+| I Used Claude Code for 1,600 Hours — Here's What Works | What Actually Works | 35.6% | Leader |
+| 60 Claude Code Tips That Took Me 1,600 Hours to Learn | What Actually Works | 33.3% | |
+| What 1,600 Hours of Claude Code Really Looks Like | What Actually Works | 31.1% | |
+
+**Key takeaway:** All 3 share the "1,600 Hours" personal authority frame — tight results suggest the frame itself may be the ceiling. Round 2 should test whether dropping the hours entirely and leading with value/curiosity breaks through.
+
+### Proposed Round 2 titles
+
+| Title | Frame | Rationale |
+|-------|-------|-----------|
+| I Used Claude Code for 1,600 Hours — Here's What Works | Control | Round 1 leader at 35.6% |
+| The Claude Code Tips Nobody Talks About | Social proof curiosity | Proven 42.3% winning pattern |
+| Stop Using Claude Code Wrong | Problem framing | Untested pattern, high breakout potential |
+| 60 Claude Code Tips You Need to Know | Value-first | Leads with number instead of hours |
 
 ---
 
