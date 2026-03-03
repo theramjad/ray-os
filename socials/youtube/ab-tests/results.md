@@ -364,14 +364,17 @@ All titles within ~4.5% — no clear breakaway winner. "Here's What Works" leads
 
 **Key takeaway:** All 3 share the "1,600 Hours" personal authority frame — tight results suggest the frame itself may be the ceiling. Round 2 should test whether dropping the hours entirely and leading with value/curiosity breaks through.
 
-### Proposed Round 2 titles
+### Title A/B Test Round 2 (2026-03-03) — Frame variety test
 
-| Title | Frame | Rationale |
-|-------|-------|-----------|
-| I Used Claude Code for 1,600 Hours — Here's What Works | Control | Round 1 leader at 35.6% |
-| The Claude Code Tips Nobody Talks About | Social proof curiosity | Proven 42.3% winning pattern |
-| Stop Using Claude Code Wrong | Problem framing | Untested pattern, high breakout potential |
-| 60 Claude Code Tips You Need to Know | Value-first | Leads with number instead of hours |
+Testing whether dropping "1,600 Hours" entirely and leading with curiosity/problem framing breaks through the ceiling. Same thumbnail across all variants (face + "Top 0.1% User" + "What Actually Works").
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| I Used Claude Code for 1,600 Hours — Here's What Works | What Actually Works | | Control |
+| Stop Using Claude Code Wrong | What Actually Works | | |
+| The Claude Code Tips Nobody Talks About | What Actually Works | | |
+
+**Status:** Test running, no results yet.
 
 ---
 
