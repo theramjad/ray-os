@@ -24,7 +24,7 @@ The delivery pace is too fast and screens flash by before viewers can read them.
 ### 2. Visual Hook in First 10 Seconds
 
 **Status:** Not started
-**Source:** [2026-02 audit](audits/2026-02.md) — Gap #1
+**Source:** [2026-02 audit](performance/2026-02.md) — Gap #1
 
 Show the finished product or a before/after in the first 5-10 seconds. All 9 audited videos open with verbal statements only.
 
@@ -33,7 +33,7 @@ Show the finished product or a before/after in the first 5-10 seconds. All 9 aud
 ### 3. Kill Feature Roundups
 
 **Status:** Improving
-**Source:** [2026-02 audit](audits/2026-02.md) — Gap #4, #6
+**Source:** [2026-02 audit](performance/2026-02.md) — Gap #4, #6
 
 Focused videos average 25% more views than roundups. Pick ONE feature, go deep.
 
@@ -42,7 +42,7 @@ Focused videos average 25% more views than roundups. Pick ONE feature, go deep.
 ### 4. 3-Beat Hook Formula
 
 **Status:** Not started
-**Source:** [2026-02 audit](audits/2026-02.md) — Gap #2
+**Source:** [2026-02 audit](performance/2026-02.md) — Gap #2
 
 Empathy/relatability + provocative claim + clear scope. 100% of outliers use it, 0% of current videos do.
 
@@ -51,7 +51,7 @@ Empathy/relatability + provocative claim + clear scope. 100% of outliers use it,
 ### 5. Single CTA at End
 
 **Status:** Testing
-**Source:** [2026-02 audit](audits/2026-02.md) — Gap #3
+**Source:** [2026-02 audit](performance/2026-02.md) — Gap #3
 
 83% of outliers use zero or one CTA at the end. Current pattern: 3-4 CTAs, first one at ~15-30 seconds. Tension with revenue data — see audit Part 4 for resolution.
 
@@ -60,7 +60,7 @@ Empathy/relatability + provocative claim + clear scope. 100% of outliers use it,
 ### 6. Philosophical Anchor / Thesis
 
 **Status:** Not started
-**Source:** [2026-02 audit](audits/2026-02.md) — Gap #5
+**Source:** [2026-02 audit](performance/2026-02.md) — Gap #5
 
 100% of outliers have a recurring thesis threading through the video. 0% of current videos do.
 

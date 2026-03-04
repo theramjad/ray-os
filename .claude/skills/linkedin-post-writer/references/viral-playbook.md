@@ -114,5 +114,5 @@ Ranked by average engagement:
 - Hashtag spam (1-3 max, at end only)
 - Pure self-promotion without story/value framing
 - "I'm excited to announce" (boring hook)
-- Being too polished — lowercase + casual outperforms corporate
+- Being too polished — casual tone outperforms corporate, but always use proper capitalization (sentence case)
 - Posting text-only when you could add a carousel

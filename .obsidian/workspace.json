@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2dbfbe5138debc8b",
+        "id": "193f0dbfa1c5169b",
         "type": "tabs",
         "children": [
           {
-            "id": "9905117739bdd7a8",
+            "id": "c8a063b6d0d1436d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/techniques/Best of 5.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Best of 5"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.50271224975586
+    "width": 282.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "99b289f72ba3f8e1",
@@ -181,40 +178,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "9905117739bdd7a8",
+  "active": "c8a063b6d0d1436d",
   "lastOpenFiles": [
-    "courses/techniques/images/code-is-the-documentation.png",
-    "courses/techniques/images/pick-winner-build-task-list.png",
-    "courses/techniques/images/find-where-it-hurts.png",
-    "courses/techniques/images/agent-fighting-itself.png",
-    "courses/techniques/images/gravitational-pull.png",
-    "courses/techniques/Boxing the Model In.md",
+    "socials/youtube/scripts/Skill Evals - Test and Measure Your Claude Skills.md",
+    "socials/youtube/scripts/50 Tips for Claude Code.md",
+    "excalidraw_2.png 10-49-59-685.png",
+    "socials/youtube/scripts/images/skill-evals/bigger-picture/excalidraw_3.png",
+    "socials/youtube/scripts/images/skill-evals/bigger-picture/excalidraw_2.png",
+    "socials/youtube/scripts/images/skill-evals/bigger-picture/excalidraw_1.png",
+    "socials/youtube/scripts/images/skill-evals/trigger-loop/excalidraw_3.png",
+    "socials/youtube/scripts/images/skill-evals/trigger-loop/excalidraw_2.png",
+    "socials/youtube/scripts/images/skill-evals/trigger-loop/excalidraw_1.png",
+    "socials/youtube/scripts/images/skill-evals/testing-angle/excalidraw_3.png",
+    "socials/youtube/scripts/images/skill-evals/testing-angle/excalidraw_2.png",
+    "socials/youtube/scripts/images/skill-evals/testing-angle/excalidraw_1.png",
+    "socials/youtube/scripts/images/skill-evals/bigger-picture",
+    "socials/youtube/scripts/images/skill-evals/trigger-loop",
+    "socials/youtube/scripts/images/skill-evals/testing-angle",
+    "socials/youtube/scripts/images/skill-evals/the-problem",
+    "claude-md-cheat-sheet.html",
+    "socials/youtube/scripts/images/skill-evals/skill-types",
+    "socials/youtube/scripts/images/skill-evals/description-optimization",
+    "socials/youtube/scripts/images/skill-evals/capability-vs-procedural-evals",
+    "socials/youtube/scripts/images/skill-evals/benchmark-table",
+    "socials/youtube/scripts/images/skill-evals/ab-testing-flow",
     "courses/techniques/Best of 5.md",
+    "courses/techniques/Boxing the Model In.md",
     "courses/techniques/Closing the Loop.md",
     "courses/techniques/Delete Your README.md",
     "courses/techniques/Goal In, Strategy Out.md",
     "courses/techniques/Gravitional Pull from Older Models.md",
     "courses/techniques/High Level Strategy, Low Level Details.md",
     "courses/techniques/One Pattern Per Thing.md",
-    "courses/techniques/images/code-is-the-documentation/excalidraw_10.png",
-    "courses/techniques/images/code-is-the-documentation/excalidraw_9.png",
-    "courses/techniques/images/code-is-the-documentation/excalidraw_8.png",
-    "courses/techniques/images/code-is-the-documentation/excalidraw_7.png",
-    "courses/techniques/images/code-is-the-documentation/excalidraw_6.png",
-    "courses/techniques/images/code-is-the-documentation/excalidraw_5.png",
-    "courses/techniques/images/pick-winner-build-task-list",
-    "courses/techniques/images/code-is-the-documentation",
-    "courses/techniques/images/find-where-it-hurts",
-    "courses/techniques/images/agent-fighting-itself",
-    "courses/techniques/images/gravitational-pull",
-    "courses/techniques/images/just-in-time-context",
-    "courses/techniques/images/readme-has-no-feedback-loop",
-    "courses/techniques/images/multiple-sources-of-truth",
     "projects/agentic-coding-school/to-film/generate-diagrams-on-demand.md",
-    "socials/youtube/scripts/50 Tips for Claude Code.md",
     "research/Building Effective Agent Teams.md",
-    "socials/youtube/scripts/images/50-tips/tip-subagent-why",
-    "socials/youtube/scripts/images/50-tips/tip-defer-to-subagents",
     "courses/Classes Dashboard.md",
     "socials/youtube/revenue/2026-02-pitch-analysis.md",
     "projects/agentic-coding-school/to-film/from-pr-command.md",
@@ -228,7 +225,6 @@
     "projects/agentic-coding-school/to-film/desktop-app-previews.md",
     "projects/agentic-coding-school/to-film/subagent-memory.md",
     "socials/youtube/revenue/2026-02-video-revenue.md",
-    "socials/youtube/scripts/100 Tips for Claude Code.md",
     "Untitled.canvas"
   ]
 }

@@ -425,9 +425,29 @@ Testing variations around the winning "Guide" + "Top 0.01% User" authority frame
 
 | Title | Thumbnail Text | Watch-time Share | Result |
 |-------|---------------|------------------|--------|
-| Anthropic Just Dropped the Skills Update Everyone Needed | Skills 2.0? | | |
-| Anthropic Just Solved Claude Code's Biggest Skills Problem | Skills 2.0? | | |
-| Anthropic Just Fixed Claude Code Skills | Skills 2.0? | | |
+| **Anthropic Just Solved Claude Code's Biggest Skills Problem** | Skills 2.0? | **36.2%** | Leader |
+| Anthropic Just Dropped the Skills Update Everyone Needed | Skills 2.0? | 35.1% | |
+| Anthropic Just Fixed Claude Code Skills | Skills 2.0? | 28.7% | |
+
+**Key takeaways:**
+- Problem/magnitude framing ("Solved...Biggest Problem") leads at 36.2%
+- Social proof curiosity ("Everyone Needed") underperformed its usual ~42% — "Skills Update" may be less compelling as the mystery object than "Feature"
+- "Fixed" too bland — doesn't create curiosity about WHAT was fixed or WHY it matters
+- **New insight:** "Solved" > "Fixed" — implying a difficult problem > implying a simple repair
+
+### Title A/B Test Round 2 (2026-03-04)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Claude Code Skills Just Got Their Biggest Update Yet** | Skills 2.0? | **38%** | Leader |
+| Anthropic Just Made Claude Code Skills Actually Work | Skills 2.0? | 33.4% | |
+| Anthropic Just Solved Claude Code's Biggest Skills Problem | Skills 2.0? | 28.6% | |
+
+**Key takeaways:**
+- "Biggest Update Yet" magnitude framing wins at **38%** — WITHOUT Anthropic authority, first time a non-Anthropic title leads convincingly
+- Round 1 winner "Solved...Biggest Problem" collapsed from 36.2% → 28.6% — early results volatile (same pattern as Video 11 R3→R4)
+- "Actually Work" provocative framing decent at 33.4% but didn't break through
+- **New insight:** For update/feature videos, "Biggest Update Yet" magnitude framing may not need Anthropic authority — the thumbnail already establishes it via the @claudeai tweet
 
 ---
 
