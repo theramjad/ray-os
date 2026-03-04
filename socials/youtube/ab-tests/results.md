@@ -413,6 +413,24 @@ Testing variations around the winning "Guide" + "Top 0.01% User" authority frame
 
 **Status:** Complete. Winner fed into Round 5.
 
+### Title A/B Test Round 5 (2026-03-04) — "The" vs "A" refinement
+
+Testing definitive article and alternative framings against the Round 4 winner. Same thumbnail (face + "Top 0.01% User" + "1,600 Hours").
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **The Top 0.01% User's Guide to Claude Code** | 1,600 Hours | **44.6%** | **Winner** |
+| How a Top 0.01% User Mastered Claude Code | 1,600 Hours | 29.3% | |
+| A Top 0.01% User's Guide to Claude Code | 1,600 Hours | 26.1% | |
+
+**Key learnings:**
+- "The" (44.6%) crushes "A" (26.1%) by 18 points — definitive article implies *the only* guide, not *one of many*
+- "Mastered" narrative framing (29.3%) can't compete with "Guide" resource framing
+- Round 4's "A" version scored 45.6%, Round 5 dropped to 26.1% — confirms early-round volatility, but "The" is consistently strong
+- **Final winner: "The Top 0.01% User's Guide to Claude Code"** — stable ~45% across rounds, combines definitive article + statistical authority + resource framing
+
+**Status:** Final. Locking in "The Top 0.01% User's Guide to Claude Code" as the title.
+
 ---
 
 ## Video 12: Claude Code Skills 2.0 (Skill Evals & Testing)
