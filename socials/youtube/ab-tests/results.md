@@ -482,6 +482,67 @@ Testing definitive article and alternative framings against the Round 4 winner. 
 - "in Months" time scarcity flopped at 28.1% — adding time context weakened the magnitude framing
 - **Revised insight from R2:** Anthropic authority still matters — R2's non-Anthropic lead was an anomaly
 
+### Title A/B Test Round 4 (2026-03-05)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped Claude Code Skills 2.0** | Skills 2.0? | **36.6%** | Leader |
+| Anthropic Just Dropped the Skills Update Everyone Asked For | Skills 2.0? | 33.9% | |
+| Anthropic Just Made Claude Code Skills 10x Better | Skills 2.0? | 29.4% | |
+
+**Key takeaways:**
+- "Skills 2.0" consistent leader: 39.3% (R3) → 36.6% (R4) — stable across rounds
+- Social proof "Everyone Asked For" flopped at 33.9% — Video 10's 42.3% formula doesn't transfer to skills content. "Feature" is a more compelling mystery object than "Skills Update"
+- "10x Better" quantified improvement flopped at 29.4% — multiplier framing doesn't work for updates/improvements, only for learning content (Video 1: 42.2%)
+- **New insight:** Social proof curiosity is content-dependent — works for mysterious/exciting features, not for known improvements like "skills"
+
+### Title A/B Test Round 5 (2026-03-05)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped Claude Code Skills 2.0** | Skills 2.0? | **37.8%** | Leader |
+| Anthropic Just Dropped a New Way to Build Claude Skills | Skills 2.0? | 33% | |
+| How Anthropic Just Fixed Claude Code Skills | Skills 2.0? | 29.3% | |
+
+**Key takeaways:**
+- "Skills 2.0" now at 39.3% → 36.6% → 37.8% across 3 rounds — converging as stable winner
+- "New Way to Build" novelty framing decent at 33% but can't beat the specificity of "Skills 2.0"
+- "How" prefix killed performance at 29.3% — process framing is educational, confirmed anti-pattern
+- **New insight:** "How [authority] [verb]" is educational framing in disguise — same underperformance as "Explained"
+
+### Title A/B Test Round 6 (2026-03-05)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped Claude Code Skills 2.0** | Skills 2.0? | **35.3%** | Leader |
+| Claude Code Skills 2.0 Is Here | Skills 2.0? | 33.8% | |
+| Anthropic Just Dropped Skill Evals for Claude Code | Skills 2.0? | 30.9% | |
+
+**Key takeaways:**
+- "Skills 2.0" held lead for 4 consecutive rounds: 39.3% → 36.6% → 37.8% → 35.3% — locking in
+- "Is Here" ultra-minimal at 33.8% — surprisingly competitive without Anthropic authority, but can't win
+- "Skill Evals" specific feature naming flopped at 30.9% — "Evals" is too niche/technical for a broad audience
+- **New insight:** Version labels ("2.0") are powerful when they match the thumbnail — title-thumbnail alignment > clever framing
+
+**Status:** Final. Locking in **"Anthropic Just Dropped Claude Code Skills 2.0"** as the title. Moving to thumbnail testing.
+
+### Thumbnail Text A/B Test Round 1 (2026-03-05)
+
+| Thumbnail Text | Watch-time Share | Result |
+|----------------|------------------|--------|
+| **Skills 2.0?** | **44.4%** | ✅ WINNER |
+| Build Better Skills | 28.8% | |
+| How I Make Them Now | 26.8% | |
+
+**Key takeaways:**
+- "Skills 2.0?" at 44.4% — dominant winner, already locked in by YouTube
+- "How I Make Them Now" flopped at 26.8% — the "How I [X] Now" formula (51.5% on Video 4) doesn't transfer to news/update videos where the title is announcement framing
+- "Build Better Skills" value promise at 28.8% — too instructional for a news thumbnail
+- **New insight:** Thumbnail text should match the title's energy. News title + personal thumbnail = mismatch. News title + curiosity question thumbnail = alignment
+- **New insight:** "How I [X] Now" formula is content-type dependent — works for workflow/opinion videos, fails for news/announcement videos
+
+**Status:** Final. Locking in **"Skills 2.0?"** as thumbnail text.
+
 ---
 
 ## Anti-Patterns (Never Do This)
