@@ -415,6 +415,22 @@ Testing variations around the winning "Guide" + "Top 0.01% User" authority frame
 
 ---
 
+## Video 12: Claude Code Skills 2.0 (Skill Evals & Testing)
+
+**Video ID:** `qXWz-V_XMOc`
+**Published:** 2026-03-04
+**Thumbnail Text:** Skills 2.0?
+
+### Title A/B Test Round 1 (2026-03-04)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| Anthropic Just Dropped the Skills Update Everyone Needed | Skills 2.0? | | |
+| Anthropic Just Solved Claude Code's Biggest Skills Problem | Skills 2.0? | | |
+| Anthropic Just Fixed Claude Code Skills | Skills 2.0? | | |
+
+---
+
 ## Anti-Patterns (Never Do This)
 
 Documented failures to avoid repeating. Reference these when generating new title/thumbnail options.
