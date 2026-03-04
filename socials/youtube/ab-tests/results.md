@@ -364,17 +364,54 @@ All titles within ~4.5% — no clear breakaway winner. "Here's What Works" leads
 
 **Key takeaway:** All 3 share the "1,600 Hours" personal authority frame — tight results suggest the frame itself may be the ceiling. Round 2 should test whether dropping the hours entirely and leading with value/curiosity breaks through.
 
-### Title A/B Test Round 2 (2026-03-03) — Frame variety test
+### Title A/B Test Round 2 (2026-03-04) — Frame variety test
 
 Testing whether dropping "1,600 Hours" entirely and leading with curiosity/problem framing breaks through the ceiling. Same thumbnail across all variants (face + "Top 0.1% User" + "What Actually Works").
 
 | Title | Thumbnail Text | Watch-time Share | Result |
 |-------|---------------|------------------|--------|
-| I Used Claude Code for 1,600 Hours — Here's What Works | What Actually Works | | Control |
-| Stop Using Claude Code Wrong | What Actually Works | | |
-| The Claude Code Tips Nobody Talks About | What Actually Works | | |
+| **The Claude Code Tips Nobody Talks About** | What Actually Works | **35.3%** | Leader |
+| I Used Claude Code for 1,600 Hours — Here's What Works | What Actually Works | 32.5% | Control |
+| Stop Using Claude Code Wrong | What Actually Works | 32.2% | |
 
-**Status:** Test running, no results yet.
+**Key takeaway:** "Nobody Talks About" leads but only by 3% — no breakaway winner. Video still massively underperforming (5,719 views vs typical 10,000–12,300, 43% fewer, 10.2% sub CTR vs usual 14.1–15.3%). The personal/tips frame may have a hard ceiling. Round 3 should be a hail mary with completely different framing: authority + reveals, problem framing, and number-forward authority.
+
+### Title A/B Test Round 3 (2026-03-04) — Hail mary: authority + frame diversity
+
+Abandoning personal/reflective framing entirely. New thumbnail text "1,600 Hours Learning" (replacing "What Actually Works"). Testing three maximally different frames to find a breakout.
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **60 Claude Code Tips From a Top 0.01% User** | 1,600 Hours | **41.9%** | Leading |
+| Stop Using Claude Code Like a Beginner | 1,600 Hours | 29.5% | |
+| Claude Code Expert Reveals 60 Tips Nobody Teaches | 1,600 Hours | 28.6% | |
+
+**Key learnings:**
+- "Top 0.01% User" authority frame at **41.9%** — tied for all-time best with Video 10's social proof title
+- Thumbnail updated to "Top 0.01% User" (from 0.1%) + "1,600 Hours" (from "1,600 Hours Learning")
+- Problem framing ("Stop Using... Like a Beginner") flopped at 29.5% — identity threat may feel accusatory (similar to FOMO anti-pattern)
+- "Expert Reveals" flopped at 28.6% — third-person authority ("Expert") doesn't work like institutional authority ("Anthropic") or statistical authority ("Top 0.01%")
+- **New insight:** Statistical authority ("Top 0.01%") > self-proclaimed authority ("Expert") > personal framing ("I Used...")
+
+**Status:** Complete. Winner fed into Round 4.
+
+### Title A/B Test Round 4 (2026-03-04) — Refining the "Top 0.01% User" frame
+
+Testing variations around the winning "Guide" + "Top 0.01% User" authority frame. Same thumbnail (face + "Top 0.01% User" + "1,600 Hours").
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **A Top 0.01% User's Guide to Claude Code** | 1,600 Hours | **45.6%** | **New all-time best** |
+| What a Top 0.01% Claude Code User Does Differently | 1,600 Hours | 31% | |
+| 60 Claude Code Tips From a Top 0.01% User | 1,600 Hours | 23.4% | |
+
+**Key learnings:**
+- "Guide" framing (45.6%) crushes "Tips" (23.4%) — "Guide" promises comprehensive structured value, "60 Tips" sounds like a skimmable listicle
+- "Does Differently" curiosity gap (31%) isn't enough without a concrete value promise
+- Previous round's 41.9% winner dropped to 23.4% — early results can be volatile, but "Guide" is clearly the strongest frame
+- **New insight:** "Guide" > "Tips" > "Does Differently" when paired with authority framing
+
+**Status:** Complete. Winner fed into Round 5.
 
 ---
 
