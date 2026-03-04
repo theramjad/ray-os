@@ -449,6 +449,21 @@ Testing variations around the winning "Guide" + "Top 0.01% User" authority frame
 - "Actually Work" provocative framing decent at 33.4% but didn't break through
 - **New insight:** For update/feature videos, "Biggest Update Yet" magnitude framing may not need Anthropic authority — the thumbnail already establishes it via the @claudeai tweet
 
+### Title A/B Test Round 3 (2026-03-04)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| **Anthropic Just Dropped Claude Code Skills 2.0** | Skills 2.0? | **39.3%** | Leader |
+| Claude Code Skills Just Got Their Biggest Update Yet | Skills 2.0? | 32.6% | |
+| Claude Code's Biggest Skills Update in Months | Skills 2.0? | 28.1% | |
+
+**Key takeaways:**
+- Anthropic authority is back on top — "Dropped...Skills 2.0" at 39.3% beats the no-Anthropic winner from R2 (38% → 32.6%)
+- Title-thumbnail alignment confirmed: title says "Skills 2.0", thumbnail says "Skills 2.0?" — reinforcing each other
+- "Dropped" + specific version naming is the strongest combo so far
+- "in Months" time scarcity flopped at 28.1% — adding time context weakened the magnitude framing
+- **Revised insight from R2:** Anthropic authority still matters — R2's non-Anthropic lead was an anomaly
+
 ---
 
 ## Anti-Patterns (Never Do This)
