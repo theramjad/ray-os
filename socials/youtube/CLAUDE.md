@@ -4,7 +4,8 @@ Ray's YouTube channel data and research.
 
 - `ab-tests/` — Ray's own title and thumbnail A/B test results
 - `analysis/` — Competitor video transcript analysis (hooks, structure, retention patterns)
-- `self-audit/` — Ray's own videos audited against competitor research findings
+- `audits/` — Ray's own videos audited against competitor research findings
+- `improvements.md` — **Living doc**: active production improvements, per-video experiment notes, and viewer feedback log. Check this before scripting or editing any video.
 - `transcripts/` — Downloaded video transcripts organized by channel
 
 ## A/B Test Logging
