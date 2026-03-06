@@ -90,7 +90,7 @@ Once you have the model's preferred approach, *now* you can steer. "I like appro
 
 ## The relationship to other techniques
 
-This pairs naturally with [[Boxing the Model In]] (the anti-pattern this avoids), [[Best of 5]] (run the goal-oriented prompt multiple times to explore different solution paths), and [[High Level Strategy, Low Level Details]] (the Planner should receive goals, not procedures).
+This pairs naturally with [[Boxing the Model In]] (the anti-pattern this avoids), [[Just Run It Again]] (run the goal-oriented prompt multiple times to explore different solution paths), and [[High Level Strategy, Low Level Details]] (the Planner should receive goals, not procedures).
 
 It's also the difference between a good CLAUDE.md and a bad one. A bad context file prescribes how the model should work. A good one describes what success looks like and lets the model figure out how to get there.
 
