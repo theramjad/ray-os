@@ -592,6 +592,52 @@ Documented failures to avoid repeating. Reference these when generating new titl
 - Thumbnail "Anthropic's OpenClaw" aligns well with competitive framing titles
 - Need Round 2 with more diverse frames to find a breakaway
 
+### Title A/B Test Round 2 (2026-03-07)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| Anthropic Just Dropped the Feature That Kills OpenClaw | Anthropic's OpenClaw | 36.6% | Leader |
+| Anthropic Just Made OpenClaw Obsolete | Anthropic's OpenClaw | 33.2% | |
+| Claude Code Just Killed OpenClaw | Anthropic's OpenClaw | 30.2% | |
+
+**Key takeaways:**
+- "Kills OpenClaw" improving: 35% (R1) → 36.6% (R2) — competitive framing gaining traction
+- Anthropic authority confirmed essential AGAIN — "Claude Code Just Killed" (no Anthropic) flopped at 30.2%
+- "Kills" (active/violent) > "Obsolete" (clinical/passive) — emotional verbs win
+- Still no breakaway winner — 36.6% is decent but below the ~42-45% ceiling of V10/V11 winners
+- Round 3 should test completely different frames: social proof, feature naming, bold claims
+
+### Title A/B Test Round 3 (2026-03-07)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| Anthropic Just Dropped the Feature That Kills OpenClaw | Anthropic's OpenClaw | 36.3% | Leader |
+| Anthropic Just Dropped the Feature Everyone Asked For | Anthropic's OpenClaw | 33.7% | |
+| Anthropic Just Dropped Always-On Mode for Claude Code | Anthropic's OpenClaw | 30% | |
+
+**Key takeaways:**
+- "Kills OpenClaw" converging: 35% → 36.6% → 36.3% across 3 rounds — stable winner, locking in
+- "Everyone Asked For" flopped at 33.7% vs its 42.3% on V10 — confirms V12 finding: social proof curiosity is content-dependent. Thumbnail already reveals it's about OpenClaw, killing the mystery
+- "Always-On Mode" product naming at 30% — feature naming without competitive hook doesn't work when thumbnail screams competition
+- **New insight:** Title-thumbnail alignment cuts both ways — competitive thumbnail forces competitive title. Non-competitive titles create a mismatch
+- **Locking in: "Anthropic Just Dropped the Feature That Kills OpenClaw"** — moving to thumbnail testing
+
+### Thumbnail A/B Test Round 1 (2026-03-08)
+
+All variants use the locked title: "Anthropic Just Dropped the Feature That Kills OpenClaw"
+
+| Thumbnail Style | Thumbnail Text | Watch-time Share | Result |
+|----------------|----------------|------------------|--------|
+| Face + tweet mock-up | Anthropic's OpenClaw | 38.6% | Leader |
+| Large "OPENCLAW" text, no face, coding background | (none) | 31.2% | |
+| Face + tweet mock-up | Anthropic's Building OpenClaw | 30.2% | |
+
+**Key takeaways:**
+- Face thumbnail (38.6%) crushes faceless design (31.2%) — 7.4% gap, face builds trust/recognition
+- "Anthropic's OpenClaw" (38.6%) > "Anthropic's Building OpenClaw" (30.2%) — shorter text, more intrigue. "Building" gives away too much context
+- Original thumbnail actually performing better now (38.6%) than during title testing (~36%) — locked title is lifting the whole package
+- Faceless thumbnails confirmed as anti-pattern for this channel
+
 ---
 
 ## Tests Still Worth Running
