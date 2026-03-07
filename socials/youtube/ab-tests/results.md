@@ -571,6 +571,29 @@ Documented failures to avoid repeating. Reference these when generating new titl
 
 ---
 
+## Video 13: Claude Code Cron Scheduling (OpenClaw Killer)
+
+**Published:** 2026-03-07
+**Thumbnail Text:** Anthropic's OpenClaw
+
+### Title A/B Test Round 1 (2026-03-07)
+
+| Title | Thumbnail Text | Watch-time Share | Result |
+|-------|---------------|------------------|--------|
+| Anthropic Just Dropped the Feature That Kills OpenClaw | Anthropic's OpenClaw | 35% | Leader |
+| Anthropic Just Dropped 24/7 Autopilot for Claude Code | Anthropic's OpenClaw | 34% | |
+| Anthropic Just Turned Claude Code Into a 24/7 Agent | Anthropic's OpenClaw | 31% | |
+
+**Key takeaways:**
+- Extremely tight race — all 3 within 4%, no clear breakaway winner
+- Competitive framing ("Kills OpenClaw") has a slight edge but not convincing
+- "24/7 Autopilot" catchy terminology nearly tied — naming the feature well matters
+- "24/7 Agent" transformation framing weakest but still close
+- Thumbnail "Anthropic's OpenClaw" aligns well with competitive framing titles
+- Need Round 2 with more diverse frames to find a breakaway
+
+---
+
 ## Tests Still Worth Running
 
 1. **Bold/emotional claims** — "This Changes Everything" type titles
